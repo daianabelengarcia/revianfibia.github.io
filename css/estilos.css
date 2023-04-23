@@ -2,20 +2,23 @@
 
 header {
     background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .logo {
     width: 170px;
 }
 
-button {
+button.iconos {
     padding: 10px;
     border: 0px;
     border-radius: 100%;
     background: #f2b3b3;
 }
 
-button img {
+button.iconos img {
     height: 20px;
     width: 20px;
 }
