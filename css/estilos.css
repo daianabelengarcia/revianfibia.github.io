@@ -2,13 +2,18 @@
 
 header {
     background-color: black;
+    padding: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
 .logo {
-    width: 170px;
+    width: 150px;
+}
+
+.redes {
+    align-items: center;
 }
 
 button.iconos {
