@@ -6,6 +6,7 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .logo {
@@ -13,7 +14,7 @@ header {
 }
 
 .redes {
-    align-items: center;
+    margin-left: auto;
 }
 
 button.iconos {
