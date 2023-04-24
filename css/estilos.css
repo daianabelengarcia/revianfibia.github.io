@@ -14,59 +14,101 @@
     font-weight: 700;
 }
 
-header {
-    background-color: black;
-    padding: 20px;
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    justify-content: space-between;
-    align-content: center;
-}
+@media screen and (mix-width: 767px) {
+    header {
+        background-color: black;
+        padding: 20px;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: space-between;
+        align-content: center;
+    }
+    
+    .logo {
+        width: 150px;
+    }
 
-.logo {
-    width: 150px;
-}
+    button.iconos {
+        padding: 10px;
+        border: 0px;
+        border-radius: 100%;
+        background: #f2b3b3;
+    }
 
-button.iconos {
-    padding: 10px;
-    border: 0px;
-    border-radius: 100%;
-    background: #f2b3b3;
-}
+    button.iconos img {
+        height: 20px;
+        width: 20px;
+    }
 
-button.iconos img {
-    height: 20px;
-    width: 20px;
-}
+    .portada {
+        margin-top: 3px;
+        padding: 20px;
+        background-color: black;
+        color: white;
+    }
 
-.portada {
-    background-color: black;
-    color: white;
-}
+    .img1 {
+        display: flex;
+        width: 50%;
+        margin-left: auto;
+    }
 
-.img2 {
-    width: 50%;
-}
+    h1 {
+        text-align: center;
+        font-size: 4.2rem;
+    }
 
-h1 {
-    text-align: center;
-    font-size: 4.2rem;
-}
-
-.portada p {
-    text-align: left;
-    font-size: 4.2rem;
+    .portada p {
+        text-align: left;
+        font-size: 1.4rem;
+    }
 }
 
 @media screen and (max-width: 767px) {
+    header {
+        background-color: black;
+        padding: 20px;
+        display: flex;
+        align-content: center;
+    }
+
+    .logo {
+        display: flex;
+        width: 50%;
+        align-items: center;
+    }
+    button.iconos {
+        padding: 10px;
+        border: 0px;
+        border-radius: 100%;
+        background: #f2b3b3;
+    }
+
+    button.iconos img {
+        height: 10px;
+        width: 10px;
+    }
+
+    .portada {
+        margin-top: 3px;
+        padding: 20px;
+        background-color: black;
+        color: white;
+    }
+
+    .img1 {
+        display: flex;
+        width: 50%;
+        align-content: center;
+    }
     h1 {
         text-align: center;
-        font-size: 2.8rem;
+        font-size: 1.4rem;
     }
 
     .portada p {
         text-align: center;
-        font-size: 2.0rem;
+        font-size: 1.0rem;
     }
 }
