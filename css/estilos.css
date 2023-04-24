@@ -1,3 +1,5 @@
+/* Fuentes */
+
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:wght@400;700&display=swap');
 
 .font1 {
@@ -13,6 +15,8 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
 }
+
+/* Encabezado */
 
 header {
     background-color: black;
@@ -40,47 +44,6 @@ button.iconos img {
     width: 20px;
 }
 
-.portada {
-    margin-top: 3px;
-    padding: 20px;
-    background-color: black;
-    color: white;
-}
-
-.portada2 {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    align-content: center;
-}
-
-.columna2 {
-    display: flex;
-    text-align: left;
-    flex-direction: column;
-    width: 50%;
-}
-
-.columna1 {
-    width: 50%;
-}
-
-.img1 {
-    width: 100%;
-}
-
-h1 {
-    margin-left: 20%;
-    margin-right: 20%;
-    text-align: center;
-    font-size: 4.2rem;
-}
-
-.portada p {
-    text-align: left;
-    font-size: 1.4rem;
-}
-
 @media screen and (max-width: 767px) {
     header {
         background-color: black;
@@ -94,10 +57,74 @@ h1 {
         width: 50%;
         align-items: center;
     }
+}
+
+/* Portada */
+
+.portada {
+    margin-top: 3px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    font-size: 4.2rem;
+}
+
+.portada2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.columna1 {
+    width: 50%;
+}
+
+.img1 {
+    width: 100%;
+}
+
+.columna2 {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    width: 50%;
+}
+
+.portada p {
+    text-align: left;
+    font-size: 1.4rem;
+}
+
+.columna2 button {
+    margin-top: 10%;
+}
+
+.cta {
+    border-color: #f2b3b3;
+    border-width: 3px;
+    border-style: solid;
+    background-color: rgba(0, 0, 0, 0);
+    color: #f2b3b3;
+    padding: 10px;
+    width: 30%;
+}
+
+@media screen and (max-width: 767px) {
 
     .portada2 {
         display: flex;
         flex-flow: column wrap;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 1.4rem;
     }
 
     .columna1 {
@@ -106,7 +133,7 @@ h1 {
 
     .img1 {
         display: flex;
-        width: 50%;
+        width: 100%;
         align-content: center;
     }
 
@@ -115,13 +142,13 @@ h1 {
         text-align: center;
     }
 
-    h1 {
-        text-align: center;
-        font-size: 1.4rem;
-    }
-
     .portada p {
         text-align: center;
         font-size: 1.0rem;
+    }
+
+    .cta {
+        margin: 0 auto;
+        width: 70%;
     }
 }
