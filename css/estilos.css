@@ -34,8 +34,7 @@ header {
 
 button.iconos {
     padding: 10px;
-    border: 0px;
-    border-radius: 100%;
+    border-radius: 50%;
     background: #f2b3b3;
 }
 
