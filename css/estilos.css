@@ -151,3 +151,26 @@ h1 {
         width: 70%;
     }
 }
+
+/*Cuerpo*/
+#seccion1 {
+display: flex;
+flex-wrap: column wrap;
+justify-content: space-between;
+}
+#descripcion1 {
+width: 50%;
+margin-right: auto;
+}
+#descripion2 {
+width: 50%;
+margin-left: auto;
+}
+.p1 {
+font-size: 1.6rem;
+color: black;
+}
+.p2 {
+font-size: 1.6rem;
+color: #013158;
+}
