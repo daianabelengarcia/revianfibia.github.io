@@ -14,60 +14,64 @@
     font-weight: 700;
 }
 
-    header {
-        background-color: black;
-        padding: 20px;
-        display: flex;
-        flex-flow: row nowrap;
-        align-items: center;
-        justify-content: space-between;
-        align-content: center;
-    }
-    
-    .logo {
-        width: 150px;
-    }
+header {
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+}
 
-    button.iconos {
-        padding: 10px;
-        border: 0px;
-        border-radius: 100%;
-        background: #f2b3b3;
-    }
+.logo {
+    width: 150px;
+}
 
-    button.iconos img {
-        height: 20px;
-        width: 20px;
-    }
+button.iconos {
+    padding: 10px;
+    border: 0px;
+    border-radius: 100%;
+    background: #f2b3b3;
+}
 
-    .portada {
-        margin-top: 3px;
-        padding: 20px;
-        background-color: black;
-        color: white;
-    }
+button.iconos img {
+    height: 20px;
+    width: 20px;
+}
 
-    .subtitulo {
-        display: flex;
-        text-align: left;
-        flex-direction: column;
-    }
+.portada {
+    margin-top: 3px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
 
-    .img1 {
-        display: flex;
-        width: 50%;
-        margin-left: auto;
-    }
+.columna2 {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    width: 50%;
+}
 
-    h1 {
-        text-align: center;
-        font-size: 4.2rem;
-    }
+.columna1 {
+    width: 50%;
+}
 
-    .portada p {
-        text-align: left;
-        font-size: 1.4rem;
-    }
+.img1 {
+    display: flex;
+    margin-left: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4.2rem;
+}
+
+.portada p {
+    text-align: left;
+    font-size: 1.4rem;
+}
 
 @media screen and (max-width: 767px) {
     header {
@@ -83,13 +87,18 @@
         align-items: center;
     }
 
+    .columna1 {
+        width: 100%;
+    }
+
     .img1 {
         display: flex;
         width: 50%;
         align-content: center;
     }
-    
-    .subtitulo {
+
+    .columna2 {
+        width: 100%;
         text-align: center;
     }
 
