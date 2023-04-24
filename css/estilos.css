@@ -1,7 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:wght@400;700&display=swap');
 
-* {
+.font1 {
     font-family: 'Oswald', sans-serif;
+}
+
+.font2a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.font2b {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
 
 header {
@@ -32,8 +42,12 @@ button.iconos img {
 
 h1 {
     text-align: center;
+    font-size: 6.0rem;
 }
-/*
-font-family: 'Roboto', sans-serif;
-font-weight: 400;
-font-weight: 700;*/
+
+@media screen and (max-width: 767px) {
+    h1 {
+        text-align: center;
+        font-size: 2.4rem;
+    }
+}
