@@ -47,6 +47,13 @@ button.iconos img {
     color: white;
 }
 
+.portada2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    align-content: center;
+}
+
 .columna2 {
     display: flex;
     text-align: left;
@@ -59,8 +66,7 @@ button.iconos img {
 }
 
 .img1 {
-    display: flex;
-    margin-left: auto;
+    width: 100%;
 }
 
 h1 {
@@ -85,6 +91,11 @@ h1 {
         display: flex;
         width: 50%;
         align-items: center;
+    }
+
+    .portada2 {
+        display: flex;
+        flex-flow: column wrap;
     }
 
     .columna1 {
