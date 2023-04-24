@@ -14,14 +14,11 @@
     font-weight: 700;
 }
 
-* {
-    display: flex;
-    flex-flow: row nowrap;
-}
-
 header {
     background-color: black;
     padding: 20px;
+    display: flex;
+    flex-flow: row nowrap;
     align-items: center;
     justify-content: space-between;
     align-content: center;
@@ -50,7 +47,6 @@ button.iconos img {
 
 .portada img {
     width: 50%;
-    align-items: right;
 }
 
 h1 {
