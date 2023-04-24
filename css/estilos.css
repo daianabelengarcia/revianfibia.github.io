@@ -48,6 +48,12 @@
         color: white;
     }
 
+    .subtitulo {
+        display: flex;
+        text-align: left;
+        flex-direction: column;
+    }
+
     .img1 {
         display: flex;
         width: 50%;
@@ -102,6 +108,11 @@
         width: 50%;
         align-content: center;
     }
+    
+    .subtitulo {
+        text-align: center;
+    }
+
     h1 {
         text-align: center;
         font-size: 1.4rem;
