@@ -14,7 +14,7 @@
     font-weight: 700;
 }
 
-*{
+* {
     display: flex;
     flex-flow: row nowrap;
 }
@@ -48,8 +48,9 @@ button.iconos img {
     color: white;
 }
 
-.portada2 img {
-align-items: right;
+.portada img {
+    width: 50%;
+    align-items: right;
 }
 
 h1 {
