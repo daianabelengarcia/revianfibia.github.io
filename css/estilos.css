@@ -187,3 +187,23 @@ h1 {
     font-size: 1.6rem;
     color: #013158;
 }
+
+h3 {
+    background-color: #013158;
+    font-size: 1.6rem;
+    padding: 10px auto;
+    text-align: center;
+    color: white;
+}
+
+.recuadros p {
+    font-size: 1.6rem;
+    width: 30%;
+    display: flex;
+    flex-wrap: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    padding: 20px 10px;
+    background-color: #fcf0f0;
+}
