@@ -16,6 +16,17 @@
     font-weight: 700;
 }
 
+/*Conteiner*/
+
+body {
+    background-color: #f2b3b3;
+    margin: 0px;
+}
+
+.conteiner {
+    background-color: white;
+}
+
 /* Encabezado */
 
 header {
