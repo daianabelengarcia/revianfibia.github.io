@@ -218,16 +218,20 @@ h3 {
 }
 
 @media screen and (max-width: 767px) {
-    .p2 .p1 {
+    .p1 {
         font-size: 1rem;
     }
 
-    #descripcion1 #descripcion2 {
-        width: 80%;
+    .p2 {
+        font-size: 1rem;
+    }
+
+    #descripcion1 {
+        width: 70%;
     }
 
     #descripcion2 {
-        width: 80%;
+        width: 70%;
     }
 
     #recuadros {
