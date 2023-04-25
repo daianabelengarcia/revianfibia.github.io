@@ -16,6 +16,10 @@
     font-weight: 700;
 }
 
+html {
+    font-size: 100%;
+}
+
 /*Conteiner*/
 
 body {
@@ -81,7 +85,7 @@ button.iconos img {
 h1 {
     margin: 0 10%;
     text-align: center;
-    font-size: 4.2rem;
+    font-size: 3.75rem;
 }
 
 .portada2 {
@@ -107,7 +111,7 @@ h1 {
 
 .portada p {
     text-align: left;
-    font-size: 1.4rem;
+    font-size: 2rem;
 }
 
 .columna2 button {
@@ -134,7 +138,7 @@ h1 {
 
     h1 {
         text-align: center;
-        font-size: 1.4rem;
+        font-size: 1.5rem;
     }
 
     .columna1 {
@@ -179,18 +183,18 @@ h1 {
 }
 
 .p1 {
-    font-size: 1.6rem;
+    font-size: 2rem;
     color: black;
 }
 
 .p2 {
-    font-size: 1.6rem;
+    font-size: 2rem;
     color: #013158;
 }
 
 h3 {
     background-color: #013158;
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     padding: 10px;
     text-align: center;
     color: white;
@@ -206,7 +210,6 @@ h3 {
 }
 
 .recuadros p {
-    font-size: 1.6rem;
     width: 30%;
     padding: 100px 10px;
     background-color: #fcf0f0;
@@ -215,8 +218,11 @@ h3 {
 }
 
 @media screen and (max-width: 767px) {
+    .p2 .p1 {
+        font-size: 1rem;
+    }
 
-    #descripcion1 {
+    #descripcion1 #descripcion2 {
         width: 80%;
     }
 
@@ -224,12 +230,12 @@ h3 {
         width: 80%;
     }
 
-    .recuadros {
+    #recuadros {
         flex-direction: column;
         align-items: center;
     }
 
-    .recuadros p {
+    #recuadros p {
         width: 80%;
         border-radius: 25%;
     }
