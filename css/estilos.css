@@ -200,7 +200,7 @@ h3 {
     color: white;
 }
 
-.recuadros {
+#recuadros {
     margin: 20px;
     display: flex;
     flex-flow: row nowrap;
@@ -209,7 +209,7 @@ h3 {
     align-content: center;
 }
 
-.recuadros p {
+#recuadros p {
     width: 30%;
     padding: 100px 10px;
     background-color: #fcf0f0;
