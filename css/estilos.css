@@ -63,13 +63,12 @@ button.iconos img {
 
 .portada {
     margin-top: 3px;
-    padding: 5% 10%;
+    padding: 5% 16%;
     background-color: black;
     color: white;
 }
 
 h1 {
-    margin: 0 10%;
     text-align: center;
     font-size: 2.8rem;
 }
@@ -168,11 +167,12 @@ h3 {
 
     header {
         justify-content: center;
+        padding: 10px;
     }
 
     .logo {
         display: flex;
-        width: 50%;
+        width: 30%;
         align-items: center;
     }
 
@@ -182,9 +182,12 @@ h3 {
 
     /* Portada */
 
+    .portada {
+        padding: 10% 5%;
+    }
+
     h1 {
         font-size: 1.4rem;
-        margin: 10% 0;
     }
 
     .portada2 {
