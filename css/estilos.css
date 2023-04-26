@@ -22,8 +22,7 @@
     --color-secundario: #013158;
 }
 
-
-/*Conteiner*/
+/* Conteiner */
 
 body {
     background-color: var(--acento);
@@ -60,28 +59,11 @@ button.iconos img {
     width: 20px;
 }
 
-@media screen and (max-width: 767px) {
-
-    header {
-        justify-content: center;
-    }
-
-    .logo {
-        display: flex;
-        width: 50%;
-        align-items: center;
-    }
-
-    .redes {
-        display: none;
-    }
-}
-
 /* Portada */
 
 .portada {
     margin-top: 3px;
-    padding: 10% 5%;
+    padding: 5% 10%;
     background-color: black;
     color: white;
 }
@@ -89,7 +71,7 @@ button.iconos img {
 h1 {
     margin: 0 10%;
     text-align: center;
-    font-size: 3.75rem;
+    font-size: 2.8rem;
 }
 
 .portada2 {
@@ -116,51 +98,19 @@ h1 {
 .portada p {
     margin: 15% 0;
     text-align: left;
-    font-size: 2rem;
+    font-size: 1.3rem;
 }
 
 .cta {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     border-color: var(--acento);
     border-width: 3px;
     border-style: solid;
     background-color: black;
     color: var(--acento);
-    padding: 10px;
+    padding: 5px;
     width: 50%;
     box-shadow: 0px 2px 5px 1px rgba(255, 255, 255, 0.2);
-}
-
-@media screen and (max-width: 767px) {
-    h1 {
-        font-size: 1.4rem;
-        margin: 10% 0;
-    }
-
-    .portada2 {
-        display: flex;
-        flex-flow: column wrap;
-    }
-
-    .columna1 {
-        width: 80%;
-    }
-
-    .columna2 {
-        width: 100%;
-    }
-
-    .columna2 p {
-        margin: 10% 0%;
-        font-size: 1rem;
-        text-align: center;
-    }
-
-    .cta {
-        font-size: 1rem;
-        margin: 0 auto;
-        width: 70%;
-    }
 }
 
 /*Cuerpo*/
@@ -213,6 +163,57 @@ h3 {
 }
 
 @media screen and (max-width: 767px) {
+
+    /* Encabezado */
+
+    header {
+        justify-content: center;
+    }
+
+    .logo {
+        display: flex;
+        width: 50%;
+        align-items: center;
+    }
+
+    .redes {
+        display: none;
+    }
+
+    /* Portada */
+
+    h1 {
+        font-size: 1.4rem;
+        margin: 10% 0;
+    }
+
+    .portada2 {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .columna1 {
+        width: 80%;
+    }
+
+    .columna2 {
+        width: 100%;
+    }
+
+    .columna2 p {
+        margin: 10% 0%;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .cta {
+        font-size: 1rem;
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    /* Cuerpo */
+
     .p1 {
         font-size: 1rem;
     }
