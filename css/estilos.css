@@ -62,12 +62,19 @@ button.iconos img {
 
 @media screen and (max-width: 767px) {
 
+    header {
+        justify-content: center;
+    }
+
     .logo {
         display: flex;
         width: 50%;
         align-items: center;
     }
-    
+
+    .redes {
+        display: none;
+    }
 }
 
 /* Portada */
@@ -107,12 +114,9 @@ h1 {
 }
 
 .portada p {
+    margin: 15% 0;
     text-align: left;
     font-size: 2rem;
-}
-
-.columna2 button {
-    margin-top: 10%;
 }
 
 .cta {
@@ -128,19 +132,19 @@ h1 {
 }
 
 @media screen and (max-width: 767px) {
+    .portada {
+        text-align: center;
+    }
 
     .portada2 {
         display: flex;
         flex-flow: column wrap;
+        font-size: 1rem;
+        width: 100%;
     }
 
     h1 {
-        text-align: center;
         font-size: 1.5rem;
-    }
-
-    .columna1 {
-        width: 100%;
     }
 
     .img1 {
@@ -149,18 +153,7 @@ h1 {
         align-content: center;
     }
 
-    .columna2 {
-        width: 100%;
-        text-align: center;
-    }
-
-    .portada p {
-        text-align: center;
-        font-size: 1.0rem;
-    }
-
     .cta {
-        font-size: 1rem;
         margin: 0 auto;
         width: 70%;
     }
@@ -188,6 +181,7 @@ h1 {
 .p2 {
     font-size: 2rem;
     color: var(--color-secundario);
+}
 
 h3 {
     background-color: var(--color-secundario);
