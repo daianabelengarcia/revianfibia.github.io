@@ -81,7 +81,7 @@ button.iconos img {
 
 .portada {
     margin-top: 3px;
-    padding: 20px;
+    padding: 10% 5%;
     background-color: black;
     color: white;
 }
@@ -132,28 +132,32 @@ h1 {
 }
 
 @media screen and (max-width: 767px) {
-    .portada {
-        text-align: center;
+    h1 {
+        font-size: 1.4rem;
+        margin: 10% 0;
     }
 
     .portada2 {
         display: flex;
         flex-flow: column wrap;
+    }
+
+    .columna1 {
+        width: 80%;
+    }
+
+    .columna2 {
+        width: 100%;
+    }
+
+    .columna2 p {
+        margin: 10% 0%;
         font-size: 1rem;
-        width: 100%;
-    }
-
-    h1 {
-        font-size: 1.5rem;
-    }
-
-    .img1 {
-        display: flex;
-        width: 100%;
-        align-content: center;
+        text-align: center;
     }
 
     .cta {
+        font-size: 1rem;
         margin: 0 auto;
         width: 70%;
     }
