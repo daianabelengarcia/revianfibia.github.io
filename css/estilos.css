@@ -20,7 +20,6 @@
     font-size: 100%;
     --acento: #f2b3b3;
     --color-secundario: #013158;
-    
 }
 
 
@@ -68,6 +67,7 @@ button.iconos img {
         width: 50%;
         align-items: center;
     }
+    
 }
 
 /* Portada */
