@@ -54,17 +54,10 @@ button.iconos {
 }
 
 button.iconos img {
-    height: 20px;
     width: 20px;
 }
 
 @media screen and (max-width: 767px) {
-    header {
-        background-color: black;
-        padding: 20px;
-        display: flex;
-        align-content: center;
-    }
 
     .logo {
         display: flex;
