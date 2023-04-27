@@ -165,16 +165,25 @@ h3 {
 .cursada {
     display: flex;
     flex-flow: row wrap;
-    align-items:center;
-    align-content:center;
+    align-items: center;
+    align-content: center;
     justify-content: space-between;
 }
-.cursada1{
-    width:50%;
+
+.cursada2 {
+    display: none;
 }
-.cursada img {
-    margin: auto;
-    width: 80%;
+
+.cur1 {
+    margin: 5% auto 0% 5%;
+    width: 40%;
+    padding-bottom: 0px;
+
+}
+
+.cur2 img {
+    margin-left: auto;
+    width: 50%;
 }
 
 @media screen and (max-width: 767px) {
@@ -273,12 +282,20 @@ h3 {
         flex-flow: column wrap;
     }
 
-    .cursada1{
-        width:80%;
-    }
-    .cursada img {
-        margin: auto;
-        width: 100%;
+    .cursada1 {
+        display: none;
     }
 
+    .cur1 {
+        width: 70%;
+    }
+
+    .cur2 img {
+        margin: auto;
+        width: 80%;
+    }
+
+    .cur3 {
+        margin-left: auto;
+    }
 }
