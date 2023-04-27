@@ -1,7 +1,21 @@
-<svg width="112" height="108" viewBox="0 0 112 108" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="112" height="108" fill="white"/>
-<path d="M53.6606 31L69.7283 53.947" stroke="white" stroke-width="2" stroke-linecap="round"/>
-<path d="M42 31L58.0677 53.947" stroke="white" stroke-width="2" stroke-linecap="round"/>
-<path d="M53.6606 77.1957L69.7283 54.2487" stroke="white" stroke-width="2" stroke-linecap="round"/>
-<path d="M42 77.1957L58.0677 54.2487" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<svg width="1440" height="904" viewBox="0 0 1440 904" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_4_41)">
+<rect width="1440" height="904" fill="white"/>
+<path d="M612 275C612 413.071 500.071 525 362 525C223.929 525 112 413.071 112 275C112 136.929 223.929 25.0001 362 25.0001C500.071 25.0001 612 136.929 612 275Z" fill="#013158"/>
+<path d="M955.121 180.768L890.078 64.245L1019.98 63.9231L955.121 180.768Z" fill="#013158"/>
+<path d="M1081.99 180.765L1016.94 64.2414L1146.85 63.9196L1081.99 180.765Z" fill="#013158"/>
+<path d="M1208.98 180.768L1143.94 64.245L1273.85 63.9231L1208.98 180.768Z" fill="#013158"/>
+<circle cx="141" cy="692" r="75" fill="#013158" fill-opacity="0.1"/>
+<circle cx="581" cy="593" r="50" fill="#013158" fill-opacity="0.1"/>
+<circle cx="1312" cy="287" r="50" fill="#013158" fill-opacity="0.1"/>
+<circle cx="668" cy="647" r="25" fill="#013158" fill-opacity="0.1"/>
+<circle cx="697" cy="181" r="25" fill="#013158" fill-opacity="0.1"/>
+<path d="M832 629C832 767.071 943.929 879 1082 879C1220.07 879 1332 767.071 1332 629C1332 490.929 1220.07 379 1082 379C943.929 379 832 490.929 832 629Z" fill="#013158"/>
+<path d="M1440 821.341C1420.89 818.892 1402.37 815.515 1382.67 813.993C1330.85 809.99 1310.2 812.512 1258.86 816.317C1219.33 819.247 1192.16 823.806 1152.04 821.191C1116.91 818.9 1110.84 813.576 1079.96 808.295C1044.67 802.258 1026.62 805.922 996.303 813.693C958.69 823.334 939.618 825.518 904.052 813.093C888.046 807.502 869.447 796.086 843.922 798.173C809.671 800.975 779.827 816.252 749.617 822.99C695.902 834.972 665.463 808.335 640 793" stroke="#F2B3B3" stroke-width="3" stroke-linecap="round"/>
+</g>
+<defs>
+<clipPath id="clip0_4_41">
+<rect width="1440" height="904" fill="white"/>
+</clipPath>
+</defs>
 </svg>

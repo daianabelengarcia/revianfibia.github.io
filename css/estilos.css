@@ -113,16 +113,17 @@ h1 {
 }
 
 /*Cuerpo*/
+#seccion1 {
+    background-image: url("../img/frame1.svg");
+}
 
 #descripcion1 {
-    background-image: url("img/frame1.svg");
     padding: 10% 0 10% 5%;
     width: 50%;
     margin-right: auto;
 }
 
 #descripcion2 {
-    background-image: url("img/frame5.svg");
     padding: 0 5% 10% 0;
     width: 50%;
     margin-left: auto;
@@ -227,12 +228,20 @@ h3 {
         font-size: 1rem;
     }
 
+    #seccion1 {
+        background-image: url("../img/frame1.svg");
+    }
+
     #descripcion1 {
         width: 70%;
     }
 
     #descripcion2 {
         width: 70%;
+    }
+
+    h3 {
+        font-size: 1.2rem;
     }
 
     #recuadros {
