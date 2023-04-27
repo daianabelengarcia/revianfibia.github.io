@@ -115,7 +115,7 @@ h1 {
 /*Cuerpo*/
 #seccion1 {
     background-image: url("../img/frame1.svg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -132,12 +132,12 @@ h1 {
 }
 
 .p1 {
-    font-size: 2rem;
+    font-size: 1.4rem;
     color: black;
 }
 
 .p2 {
-    font-size: 2rem;
+    font-size: 1.4rem;
     color: var(--color-secundario);
 }
 
@@ -235,10 +235,12 @@ h3 {
     }
 
     #descripcion1 {
+        padding-top: 20%;
         width: 70%;
     }
 
     #descripcion2 {
+        padding: 25% 0%;
         width: 70%;
     }
 
