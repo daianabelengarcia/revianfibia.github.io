@@ -115,6 +115,8 @@ h1 {
 /*Cuerpo*/
 #seccion1 {
     background-image: url("../img/frame1.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #descripcion1 {
