@@ -29,7 +29,7 @@ body {
     margin: 0px;
 }
 
-.conteiner {
+main {
     background-color: white;
 }
 
@@ -115,12 +115,14 @@ h1 {
 /*Cuerpo*/
 
 #descripcion1 {
+    background-image: url("img/frame1.svg");
     padding: 10% 0 10% 5%;
     width: 50%;
     margin-right: auto;
 }
 
 #descripcion2 {
+    background-image: url("img/frame5.svg");
     padding: 0 5% 10% 0;
     width: 50%;
     margin-left: auto;
