@@ -100,6 +100,7 @@ h1 {
 }
 
 #portada p {
+    color: white;
     margin: 15% 0;
     text-align: left;
     font-size: 1.3rem;
@@ -161,6 +162,21 @@ h3 {
     border-radius: 10%;
 }
 
+.cursada {
+    display: flex;
+    flex-flow: row wrap;
+    align-items:center;
+    align-content:center;
+    justify-content: space-between;
+}
+.cursada1{
+    width:50%;
+}
+.cursada img {
+    margin: auto;
+    width: 80%;
+}
+
 @media screen and (max-width: 767px) {
 
     /* Encabezado */
@@ -183,15 +199,11 @@ h3 {
     /* Portada */
 
     #portada {
-        padding: 10% 5%;
+        padding: 10% 2%;
     }
 
     h1 {
         font-size: 1.4rem;
-    }
-
-    p {
-        font-size: 1rem;
     }
 
     .portada2 {
@@ -208,6 +220,7 @@ h3 {
     }
 
     #portada p {
+        font-size: 1.2rem;
         margin: 10% 0%;
         text-align: center;
     }
@@ -219,6 +232,13 @@ h3 {
     }
 
     /* Cuerpo */
+    .font2a {
+        font-size: 1rem;
+    }
+
+    .font2b {
+        font-size: 1rem;
+    }
 
     #seccion1 {
         background-image: url("../img/frame1m.svg");
@@ -247,5 +267,18 @@ h3 {
         width: 80%;
         border-radius: 25%;
     }
-    
+
+    .cursada {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .cursada1{
+        width:80%;
+    }
+    .cursada img {
+        margin: auto;
+        width: 100%;
+    }
+
 }
