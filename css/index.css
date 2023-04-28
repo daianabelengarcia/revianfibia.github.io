@@ -1,0 +1,66 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-size: 10px;
+    --acento: #f2b3b3;
+    --color-secundario: #013158;
+    --fuente-titulos: 'Oswald', sans-serif;
+    --fuente-textos: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: var(--fuente-titulos) font-size: 4rem;
+}
+
+h2 {
+    font-family: var(--fuente-titulos);
+    font-size: 3rem;
+}
+
+p {
+    font-family: var(--fuente-textos);
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.p-azul {
+    font-weight: 700;
+    color: var(--color-secundario)
+}
+
+/* Conteiner */
+
+body {
+    background-color: var(--acento);
+    margin: 0px;
+}
+main {
+    background-color: white;
+}
+
+/* Encabezado */
+
+header {
+    background-color: black;
+    padding: 2rem;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+}
+.logo {
+    width: 10%;
+}
+
+button.iconos {
+    padding: 10px;
+    border-radius: 50%;
+    background: var(--acento);
+}
+
+button.iconos img {
+    width: 2,5%;
+}
