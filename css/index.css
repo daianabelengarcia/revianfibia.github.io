@@ -1,11 +1,12 @@
-/* Fonts */
+/* Tipografia y colores */
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:wght@400;700&display=swap');
 
 body {
     font-size: 10px;
-    --acento: #f2b3b3;
+    --color-acento: #f2b3b3;
     --color-secundario: #013158;
+    --color-recuadros: #fcf0f0;
     --fuente-titulos: 'Oswald', sans-serif;
     --fuente-textos: 'Roboto', sans-serif;
 }
@@ -41,7 +42,7 @@ p {
 /* Conteiner */
 
 body {
-    background-color: var(--acento);
+    background-color: var(--color-acento);
     margin: 0px;
 }
 
@@ -66,7 +67,7 @@ header {
 .iconos {
     padding: 10px;
     border-radius: 50%;
-    background: var(--acento);
+    background: var(--color-acento);
 }
 
 .iconos img {
@@ -117,11 +118,11 @@ header {
 .cta {
     font-family: var(--fuente-titulos);
     font-size: 1.6rem;
-    border-color: var(--acento);
+    border-color: var(--color-acento);
     border-width: 3px;
     border-style: solid;
     background-color: transparent;
-    color: var(--acento);
+    color: var(--color-acento);
     padding: 1rem;
     height: 3rem;
     box-shadow: 0px 2px 5px 1px rgba(255, 255, 255, 0.2);
@@ -148,4 +149,28 @@ header {
 text-align: right;
 width: 50%;
 margin-left: auto;
+}
+
+#section-2 {
+    padding:2rem;
+}
+.recuadros {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "r1 r2 r3";
+}
+.recuadro-1 {
+    grid-area: r1;
+}
+.recuadro-2 {
+    grid-area: r2;
+}
+.recuadro-3 {
+    grid-area: r3;
+}
+.recuadros p {
+    padding: 10rem 1rem;
+    background-color: var(--color-recuadros);
+    text-align: center;
+    border-radius: 10%;
 }
