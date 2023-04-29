@@ -11,7 +11,9 @@ body {
 }
 
 h1 {
-    font-family: var(--fuente-titulos) font-size: 4rem;
+    font-family: var(--fuente-titulos);
+    font-size: 4rem;
+    text-align: center;
 }
 
 h2 {
@@ -36,6 +38,7 @@ body {
     background-color: var(--acento);
     margin: 0px;
 }
+
 main {
     background-color: white;
 }
@@ -51,8 +54,9 @@ header {
     justify-content: space-between;
     align-content: center;
 }
+
 .logo {
-    width: 10%;
+    width: 10rem;
 }
 
 button.iconos {
@@ -62,5 +66,32 @@ button.iconos {
 }
 
 button.iconos img {
-    width: 2,5%;
+    width: 2rem;
+}
+
+/* Portada */
+
+#portada {
+    margin-top: 3px;
+    padding: 5% 16%;
+    background: linear-gradient(black, 95%, transparent);
+    color: white;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "h1 h1"
+    "p img"
+    "cta img";
+}
+.titulo-portada {
+    grid-area: h1;
+}
+.img-portada {
+    grid-area: img;
+}
+.p-portada {
+    grid-area: p;
+}
+.cta-portada {
+    grid-area: cta;
 }

@@ -69,7 +69,7 @@ button.iconos img {
 #portada {
     margin-top: 3px;
     padding: 5% 16%;
-    background-color: black;
+    background: linear-gradient(black, 90%, transparent);
     color: white;
 }
 
