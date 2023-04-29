@@ -138,7 +138,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     padding: 2rem;
-    margin-bottom: 2rem;
+    margin: 4rem 0rem;
 }
 
 .descripcion-1 {
@@ -158,6 +158,7 @@ margin-left: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "r1 r2 r3";
+    column-gap: 2rem;
 }
 .recuadro-1 {
     grid-area: r1;
@@ -170,7 +171,8 @@ margin-left: auto;
 }
 .recuadros p {
     padding: 10rem 1rem;
-    background-color: var(--color-recuadros);
+    background: linear-gradient(135deg, var(--color-recuadros) 60%, var(--color-acento) 100%);
+    box-shadow: 0rem 0.5rem 0.5rem 0rem rgb(0 0 0 / 20%);
     text-align: center;
     border-radius: 10%;
 }
