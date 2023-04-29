@@ -88,6 +88,9 @@ header {
 
 .img-portada {
     grid-area: img;
+}
+
+.img-portada img {
     width: 100%;
 }
 
