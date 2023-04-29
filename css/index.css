@@ -19,12 +19,17 @@ h1 {
 h2 {
     font-family: var(--fuente-titulos);
     font-size: 2.4rem;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    background-color: var(--color-secundario);
 }
 
 p {
     font-family: var(--fuente-textos);
     font-weight: 400;
     font-size: 1.8rem;
+    color: black;
 }
 
 .p-azul {
@@ -119,4 +124,22 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Secciones */
+
+#section-1 {
+    background-image: url("../img/frame1.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.descripcion-1 {
+    width: 50%;
+}
+
+.descripcion-2 {
+text-align: right;
+width: 50%;
+margin-left: auto;
 }
