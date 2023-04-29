@@ -73,7 +73,7 @@ button.iconos img {
 
 #portada {
     margin-top: 3px;
-    padding: 5% 16%;
+    padding: 2rem;
     background: linear-gradient(black, 95%, transparent);
     color: white;
     display: grid;
@@ -88,10 +88,25 @@ button.iconos img {
 }
 .img-portada {
     grid-area: img;
+    width: 50%;
 }
 .p-portada {
     grid-area: p;
+    text-align: left;
 }
 .cta-portada {
     grid-area: cta;
 }
+.cta {
+    font-family: var(--fuente-titulos);
+    font-size: 2rem;
+    border-color: var(--acento);
+    border-width: 3px;
+    border-style: solid;
+    background-color: transparent;
+    color: var(--acento);
+    padding: 5px;
+    width: 25%;
+    box-shadow: 0px 2px 5px 1px rgba(255, 255, 255, 0.2);
+}
+
