@@ -1,8 +1,4 @@
 $(document).ready(() => {
-    
-vermas (id);
-
-})
 
 function vermas (id) {
     if (id == 'ver-mas') {
@@ -15,3 +11,5 @@ function vermas (id) {
         document.getElementsByClassName("ver-mas").removeClass("oculto");
     }
 }
+
+})
