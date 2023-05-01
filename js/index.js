@@ -1,10 +1,13 @@
 $(document).ready(() => {
+    console.log ("jquery cargado");
 
     $("#ver-mas").click(() => {
         vermas();
+        console.log ("ver mas");
     });
     $("#ver-menos").click(() => {
         vermenos();
+        console.log ("ver menos");
     });
 });
 //Desplegable
