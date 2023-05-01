@@ -137,43 +137,50 @@ header {
     background-image: url("../img/frame1.svg");
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 2rem;
-    margin: 4rem 0rem;
+    padding: 6rem 2rem 10rem 2rem;
+    margin: 2rem 0rem 0rem 0rem;
 }
 
-.descripcion-1 {
+.descripcion-1,
+.descripcion-2 {
     width: 50%;
 }
 
 .descripcion-2 {
-text-align: right;
-width: 50%;
-margin-left: auto;
+    padding-top: 6rem;
+    text-align: right;
+    margin-left: auto;
 }
 
 #section-2 {
-    padding:2rem;
+    padding: 2rem;
 }
+
 .recuadros {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "r1 r2 r3";
     column-gap: 2rem;
 }
+
 .centrado {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
 .recuadro-1 {
     grid-area: r1;
 }
+
 .recuadro-2 {
     grid-area: r2;
 }
+
 .recuadro-3 {
     grid-area: r3;
 }
+
 .recuadros p {
     aspect-ratio: 1/1;
     padding: 1rem;
