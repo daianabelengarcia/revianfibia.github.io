@@ -218,10 +218,18 @@ header {
     padding: 0rem 4rem;
 }
 
-#docente-visible, .docente-desplegado {
+#docente-visible,
+.docente-desplegado {
     display: flex;
     align-items: center;
-    padding: 3rem;
+}
+
+#docente-visible {
+    padding: 3rem 3rem 0rem 3rem;
+}
+
+.docente-desplegado {
+    padding-bottom: 3rem;
 }
 
 .docente-2 {
@@ -231,12 +239,23 @@ header {
 .docente-2 img {
     border-radius: 10%;
 }
+
+.linea {
+    padding: 0% 15%;
+    width: 70%;
+}
+
+.docente-3 .linea {
+    padding-top: 18%;
+}
+
 /* Botones ver más y ver menos */
 
 #section-3 a {
     color: white;
     text-decoration: none;
 }
+
 #section-3 a:hover {
     color: var(--color-acento);
 }
@@ -245,9 +264,4 @@ header {
     width: 1rem;
     background-color: var(--color-acento);
     border-radius: 50%;
-}
-
-.linea {
-    padding-left: 25%;
-    width: 50%;
 }
