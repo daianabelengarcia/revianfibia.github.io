@@ -218,7 +218,7 @@ header {
     padding: 0rem 4rem;
 }
 
-#docente-visible, .docente-desplegado, .linea {
+#docente-visible, .docente-desplegado {
     display: flex;
     align-items: center;
     padding: 3rem;
@@ -245,4 +245,9 @@ header {
     width: 1rem;
     background-color: var(--color-acento);
     border-radius: 50%;
+}
+
+.linea {
+    padding-left: 25%;
+    width: 50%;
 }
