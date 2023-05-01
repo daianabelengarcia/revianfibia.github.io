@@ -11,14 +11,14 @@ $(document).ready(() => {
 
 function vermas(id) {
     if (id == "ver-mas") {
-        document.getElementById("desplegar").style.display = "block";
-        document.getElementById("ver-mas").style.display = "none";
+        document.getElementById("desplegable").removeClass ("oculto");
+        document.getElementById("ver-mas").addClass ("oculto");
     }
 }
 
 function vermenos(id) {
     if (id == "ver-menos") {
-        document.getElementById("desplegar").style.display = "none";
-        document.getElementById("ver-mas").style.display = "inline";
+        document.getElementById("desplegar").addClass ("oculto");
+        document.getElementById("ver-mas").removeClass ("oculto");
     }
 }

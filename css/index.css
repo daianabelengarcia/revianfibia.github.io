@@ -193,48 +193,28 @@ header {
 
 /*Desplegable*/
 
-#desplegar {
+.oculto {
     display: none;
 }
 
-.section-3 {
+#section-3 {
     background-color: var(--color-secundario);
 }
 
-.section-3 h2 {
+#section-3 h2 {
     background-color: white;
     color: var(--color-secundario);
-    border: var(--color-secundario);
-}
+   border: var(--color-secundario);
 
-.section-3 p {
+   #section-3 p {
     color: white;
-}
+   }
 
-.docente-recuadro {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: "d1 d2"
-        "d3 d4";
-}
-
-.docente-1 {
-    grid-area: d1;
-}
-
-.docente-2 {
-    grid-area: d2;
+.docente-visible , .docente-ver-mas   {
+    display: flex;
+    align-items: center;
 }
 
 .docente-2 img {
     width: 100%;
-}
-
-.docente-3 {
-    grid-area: d3;
-}
-
-.docente-4 {
-    grid-area: d4;
 }
