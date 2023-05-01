@@ -204,13 +204,15 @@ header {
 #section-3 h2 {
     background-color: white;
     color: var(--color-secundario);
-   border: var(--color-secundario);
+    border: var(--color-secundario);
+}
 
-   #section-3 p {
+#section-3 p {
     color: white;
-   }
+}
 
-.docente-visible , .docente-ver-mas   {
+.docente-visible,
+.docente-ver-mas {
     display: flex;
     align-items: center;
 }
