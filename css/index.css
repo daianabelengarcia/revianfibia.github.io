@@ -243,4 +243,6 @@ header {
 
 .icono-flecha {
     width: 1rem;
+    background-color: var(--color-acento);
+    border-radius: 50%;
 }

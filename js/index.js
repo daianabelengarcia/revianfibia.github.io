@@ -13,12 +13,14 @@ $(document).ready(() => {
 function mostrarTodo() {
 
     $("#docente-desplegable").removeClass("oculto");
+    $(".linea").removeClass ("oculto");
     $("#docente-desplegable").addClass("docente-desplegado");
     $("#vermas").addClass("oculto");
 }
 
 function ocultarTodo() {
     $("#docente-desplegable").removeClass("docente-desplegado");
+    $(".linea").addClass ("oculto");
     $("#docente-desplegable").addClass("oculto");
     $("#vermas").removeClass("oculto");
 }
