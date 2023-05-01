@@ -64,6 +64,8 @@ header {
     width: 10rem;
 }
 
+/* Redes sociales */
+
 .iconos {
     padding: 10px;
     border-radius: 50%;
@@ -131,7 +133,7 @@ header {
     align-items: center;
 }
 
-/* Secciones */
+/* Sección 1 */
 
 #section-1 {
     background-image: url("../img/frame1.svg");
@@ -151,6 +153,8 @@ header {
     text-align: right;
     margin-left: auto;
 }
+
+/* Sección 2 */
 
 #section-2 {
     padding: 2rem;
@@ -193,29 +197,47 @@ header {
 
 /*Desplegable*/
 
-#docente-visible, .docente-desplegado {
-    display: flex;
-    align-items: center;
-}  
-
 .oculto {
     display: none;
 }
 
 #section-3 {
     background-color: var(--color-secundario);
+    margin: 2rem;
+    padding-top: 0.1rem;
 }
 
 #section-3 h2 {
     background-color: white;
     color: var(--color-secundario);
-    border: var(--color-secundario);
+    margin: 0.5rem;
 }
 
 #section-3 p {
     color: white;
+    padding: 0rem 4rem;
+}
+
+#docente-visible, .docente-desplegado {
+    display: flex;
+    align-items: center;
+    padding: 3rem;
+}
+
+.docente-2 {
+    width: 100%;
 }
 
 .docente-2 img {
-    width: 100%;
+    border-radius: 10%;
 }
+/* Botones ver más y ver menos */
+
+#section-3 a {
+    color: white;
+    text-decoration: none;
+}
+#section-3 a:hover {
+    color: var(--color-acento);
+}
+
