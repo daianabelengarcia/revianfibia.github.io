@@ -1,7 +1,7 @@
 $(document).ready(() => {
 
     const mostrar = document.querySelector("#vermas");
-    const ocultar = document.querySelector("#vermenos";
+    const ocultar = document.querySelector("#vermenos");
 
     mostrar.addEventListener("click", mostrarTodo);
     ocultar.addEventListener("click", ocultarTodo);
