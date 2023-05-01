@@ -1,22 +1,24 @@
 $(document).ready(() => {
 
     $(".ver-mas").click(() => {
-        vermas();
+        vermas(id);
     });
     $(".ver-menos").click(() => {
-        vermenos();
+        vermenos(id);
     });
 
-    function vermas() {
+    function vermas(id) {
         if (id == "ver-mas") {
-            $(".docente-ver-mas oculto").removeClass("oculto");
+            $(".docente-desplegable oculto").removeClass("oculto");
+            $(".docente-desplegable").addClass ("docente-ver-mas");
             $(".ver-mas").addClass("oculto");
         }
 
     }
     function vermenos(id) {
         if (id == "ver-menos") {
-            $(".docente-ver-mas").addClass("oculto");
+            $(".docente-desplegable docente-ver-mas").removeClass ("docente-ver-mas");
+            $(".docente-desplegable").addClass("oculto");
             $(".ver-mas").removeClass("oculto");
         }
     }
