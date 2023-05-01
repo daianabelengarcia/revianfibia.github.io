@@ -1,5 +1,10 @@
 $(document).ready(() => {
 
+    $(#vermas).click ((){
+        vermas ();
+    })
+
+
 function vermas (id) {
     if (id == 'ver-mas') {
         document.getElementsById('desplegable').removeClass("oculto");
