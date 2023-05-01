@@ -193,6 +193,12 @@ header {
 
 /*Desplegable*/
 
+.docente-visible,
+.docente-ver-mas {
+    display: flex;
+    align-items: center;
+}  
+
 .oculto {
     display: none;
 }
@@ -209,12 +215,6 @@ header {
 
 #section-3 p {
     color: white;
-}
-
-.docente-visible,
-.docente-ver-mas {
-    display: flex;
-    align-items: center;
 }
 
 .docente-2 img {

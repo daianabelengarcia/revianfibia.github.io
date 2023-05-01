@@ -1,13 +1,13 @@
 $(document).ready(() => {
 
-    $("#ver-mas").click(() => {
+    $(".ver-mas").click(() => {
         vermas();
     });
-    $("#ver-menos").click(() => {
+    $(".ver-menos").click(() => {
         vermenos();
     });
 
-    function vermas(id) {
+    function vermas() {
         if (id == "ver-mas") {
             $(".docente-ver-mas oculto").removeClass("oculto");
             $(".ver-mas").addClass("oculto");
