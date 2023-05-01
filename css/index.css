@@ -195,7 +195,7 @@ header {
     border-radius: 10%;
 }
 
-/*Desplegable*/
+/*Sección 3 - Desplegable*/
 
 .oculto {
     display: none;
@@ -264,4 +264,25 @@ header {
     width: 1rem;
     background-color: var(--color-acento);
     border-radius: 50%;
+}
+
+/* Sección 4 */
+.cursada {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "c1 img-c"
+        "c2 img-c";
+}
+
+.cursada-texto-1 {
+    grid-area: c1;
+}
+
+.cursada-texto-2 {
+    grid-area: c2;
+}
+
+.cursada-img {
+    grid-area: img-c;
 }
