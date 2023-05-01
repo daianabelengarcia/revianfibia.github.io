@@ -1,14 +1,6 @@
 $(document).ready(() => {
     
-    document.getElementById('ver-mas').onclick (() => {
-        vermas();
-    })
-
-    document.getElementById('ver-menos').onclick (() => {
-        document.getElementsByClassName("docente-desplegable").removeClass("docente-ver-mas");
-        document.getElementsByClassName("docente-desplegable").addClass("oculto");
-        document.getElementsByClassName("ver-mas").removeClass("oculto");
-    })
+vermas (id);
 
 })
 
@@ -17,5 +9,9 @@ function vermas (id) {
         document.getElementsById('desplegable').removeClass("oculto");
         document.getElementsById('desplegable').addClass("docente-ver-mas");
         document.getElementsById('ver-mas').addClass("oculto");
+    } else if (id == 'ver-menos') {
+        document.getElementsByClassName("docente-desplegable").removeClass("docente-ver-mas");
+        document.getElementsByClassName("docente-desplegable").addClass("oculto");
+        document.getElementsByClassName("ver-mas").removeClass("oculto");
     }
 }
