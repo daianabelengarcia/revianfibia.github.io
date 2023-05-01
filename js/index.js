@@ -1,7 +1,7 @@
 $(document).ready(() => {
 
-    const mostrar = document.querySelector("#vermas");
-    const ocultar = document.querySelector("#vermenos");
+    let mostrar = document.getElementById("vermas");
+    let ocultar = document.getElementById("vermenos");
 
     mostrar.addEventListener("click", mostrarTodo);
     ocultar.addEventListener("click", ocultarTodo);
@@ -12,14 +12,14 @@ $(document).ready(() => {
 
 function mostrarTodo() {
 
-    $('docente-desplegable').removeClass("oculto");
-    $('docente-desplegable').addClass("docente-desplegado");
-    $('vermas').addClass("oculto");
+    $("#docente-desplegable").removeClass("oculto");
+    $("#docente-desplegable").addClass("docente-desplegado");
+    $("#vermas").addClass("oculto");
 }
 
 function ocultarTodo() {
-    $('docente-desplegable').removeClass("docente-desplegado");
-    $('docente-desplegable').addClass("oculto");
-    $('vermas').removeClass("oculto");
+    $("#docente-desplegable").removeClass("docente-desplegado");
+    $("#docente-desplegable").addClass("oculto");
+    $("#vermas").removeClass("oculto");
 }
 
