@@ -297,31 +297,26 @@ header {
 }
 /* Sección 5*/
 #section-5 {
-    padding: 6rem 2rem 10rem 2rem;
-    margin: 2rem 0rem 0rem 0rem;
+    padding: 6rem 2rem;
+    margin: 2rem;
     background-image: url(../img/fondo-circulos.svg);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 #section-5 h2 {
     background-color: transparent;
 }
 #section-5 p {
-    text-align: center;
     color: white;
 }
-.globos-1 {
-    padding: 2rem;
-    background: linear-gradient(135deg, var(--color-secundario) 60%, var(--color-recuadros) 100%);
+.globos-1, .globos-2 {
+    width: 50%;
+    aspect-ratio: 1/1;
+    background: var(--color-secundario);
     box-shadow: 0rem 0.5rem 0.5rem 0rem rgb(0 0 0 / 20%);
     text-align: center;
-    border-radius: 25%;
+    border-radius: 50%;
 }
 .globos-2 {
     margin-left: auto;
-    padding: 2rem;
-    background: linear-gradient(135deg, var(--color-secundario) 60%, var(--color-recuadros) 100%);
-    box-shadow: 0rem 0.5rem 0.5rem 0rem rgb(0 0 0 / 20%);
-    text-align: center;
-    border-radius: 25%;
 }
