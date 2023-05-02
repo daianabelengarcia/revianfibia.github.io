@@ -39,6 +39,12 @@ p {
     color: var(--color-secundario)
 }
 
+.form {
+    color: white;
+    font-size: 1.8rem;
+    font-family: var(--fuente-textos);
+}
+
 /* Conteiner */
 
 body {
