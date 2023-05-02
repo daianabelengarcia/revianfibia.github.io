@@ -320,3 +320,26 @@ header {
 .globos-2 {
     margin-left: auto;
 }
+.globo-texto-1, .globo-texto-2 {
+    margin: 30% 0%;
+}
+
+/* Pie de página */
+
+#logos-pie img {
+    width: 10rem;
+}
+#redes-pie, #logos-pie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#direccion-pie {
+    text-align: left;
+    color: white;
+}
