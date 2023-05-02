@@ -332,6 +332,14 @@ header {
     padding-top: 25%;
 }
 
+/*Formulario*/
+#formulario {
+    background-color: black;
+    margin: 2rem;
+    border: var(--color-acento);
+    padding: 2rem;
+}
+
 /* Pie de página */
 footer {
     padding: 4rem;
