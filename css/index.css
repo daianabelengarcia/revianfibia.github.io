@@ -295,6 +295,7 @@ header {
 .cursada-img img {
     width: 100%;
 }
+
 /* Sección 5*/
 #section-5 {
     padding: 6rem 2rem;
@@ -303,13 +304,17 @@ header {
     background-size: contain;
     background-repeat: no-repeat;
 }
+
 #section-5 h2 {
     background-color: transparent;
 }
+
 #section-5 p {
     color: white;
 }
-.globos-1, .globos-2 {
+
+.globos-1,
+.globos-2 {
     width: 50%;
     aspect-ratio: 1/1;
     background: var(--color-secundario);
@@ -317,29 +322,44 @@ header {
     text-align: center;
     border-radius: 50%;
 }
+
 .globos-2 {
     margin-left: auto;
 }
-.globo-texto-1, .globo-texto-2 {
-    margin: 30% 0%;
+
+.globo-texto-1,
+.globo-texto-2 {
+    padding-top: 25%;
 }
 
 /* Pie de página */
-
-#logos-pie img {
-    width: 10rem;
-}
-#redes-pie, #logos-pie{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 footer {
+    padding: 4rem;
+    margin: 0;
+    background-color: black;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-#direccion-pie {
+
+#redes-pie,
+#logos-pie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+#logos-pie img {
+    width: 10rem;
+    margin: 0rem 1rem;
+}
+
+#redes-pie .iconos {
+    margin: 0rem 1rem;
+}
+
+#direccion-pie p {
     text-align: left;
     color: white;
 }
