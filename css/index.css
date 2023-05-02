@@ -297,12 +297,24 @@ header {
 }
 /* Sección 5*/
 #section-5 {
-    background-image: url(../img/frame2.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
     padding: 6rem 2rem 10rem 2rem;
     margin: 2rem 0rem 0rem 0rem;
 }
 #section-5 h2 {
     background-color: transparent;
+}
+#section-5 p {
+    text-align: center;
+    color: white;
+}
+.globos-1 {
+    background-image: url(../img/circulo-uno.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.globos-2 {
+    background-image: url(../img/circulo-dos.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: auto;
 }
