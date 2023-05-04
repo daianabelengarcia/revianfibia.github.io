@@ -41,7 +41,7 @@ p {
 
 .form,
 input,
-select {
+select, #section-3 a {
     color: white;
     font-size: 1.8rem;
     font-family: var(--fuente-textos);
@@ -261,6 +261,7 @@ header {
 /* Botones ver más y ver menos */
 
 #section-3 a {
+    margin-left: 4rem;
     color: white;
     text-decoration: none;
 }
