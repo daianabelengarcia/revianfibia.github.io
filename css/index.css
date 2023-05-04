@@ -55,7 +55,6 @@ select option {
 /* Conteiner */
 
 body {
-    background-color: var(--color-acento);
     margin: 0px;
 }
 
@@ -71,6 +70,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 0.5rem solid var(--color-acento);
 }
 
 .logo {
@@ -92,7 +92,6 @@ header {
 /* Portada */
 
 #portada {
-    margin-top: 0.3rem;
     padding: 2rem;
     background: linear-gradient(black, 95%, transparent);
     display: grid;
@@ -144,6 +143,12 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Secciones */
+
+.section {
+    margin: 6rem 2rem;
 }
 
 /* Sección 1 */
@@ -348,8 +353,8 @@ header {
 /*Formulario*/
 #formulario {
     background-color: black;
-    margin: 2rem;
-    border: var(--color-acento);
+    margin: 6rem 2rem;
+    border:0.5rem solid var(--color-acento);
     padding: 2rem;
 }
 
