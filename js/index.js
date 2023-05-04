@@ -39,7 +39,7 @@ function populateYears () {
     // Hacer que este año y los cien años anteriores estén en el <select>
     for (let i = 0; i <= 100; i++) {
       let option = document.createElement("option");
-      option.textContent = 2023 - i;
+      option.textContent = "2023" - i;
       yearSelect.appendChild(option);
     }
   }
