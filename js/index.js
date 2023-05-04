@@ -31,7 +31,7 @@ function ocultarTodo() {
     $("#vermas").removeClass("oculto");
     $("#cta-docente").removeClass("oculto");
     $("#cta-docente").addClass("visible");
-    $("#cta-desplegado").removeClass("oculto");
+    $("#cta-desplegado").removeClass("visible");
     $("#cta-desplegado").addClass("oculto");
 }
 
