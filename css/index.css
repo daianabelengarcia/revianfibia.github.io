@@ -346,6 +346,19 @@ header {
     padding: 2rem;
 }
 
+label {
+    padding: 1rem;
+}
+
+input {
+border: var(--color-acento);
+margin-left: 1rem;
+}
+
+input:checked {
+    border: solid var(--color-acento)
+}
+
 /* Pie de página */
 footer {
     padding: 4rem;
