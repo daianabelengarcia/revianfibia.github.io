@@ -40,7 +40,7 @@ p {
 }
 
 .form,
-input {
+input, select {
     color: white;
     font-size: 1.8rem;
     font-family: var(--fuente-textos);
@@ -366,10 +366,14 @@ input {
 
 input[type=text],
 input[type=email],
-input[type=date] {
+select {
     background-color: black;
     color: white;
     border: solid var(--color-acento);
+}
+select option {
+    font-family: var(--fuente-textos);
+    font-size: 1.4rem;
 }
 
 input[type=radio] {
