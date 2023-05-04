@@ -40,10 +40,16 @@ p {
 }
 
 .form,
-input, select {
+input,
+select {
     color: white;
     font-size: 1.8rem;
     font-family: var(--fuente-textos);
+}
+
+select option {
+    font-family: var(--fuente-textos);
+    font-size: 1rem;
 }
 
 /* Conteiner */
@@ -346,6 +352,12 @@ header {
     border: var(--color-acento);
     padding: 2rem;
 }
+
+#formulario h2 {
+    text-align: left;
+    background: none;
+}
+
 .form-centrado {
     display: flex;
     flex-direction: row;
@@ -353,12 +365,14 @@ header {
     align-content: center;
 }
 
-#formulario h2 {
-    text-align: left;
-    background: none;
+.form .cta {
+    height: auto;
+    margin: 2rem auto;
+    padding: 0.5rem 1rem;
 }
 
-input, select {
+input,
+select {
     text-align: left;
     appearance: none;
     padding: 0.5rem 2rem;
@@ -371,10 +385,6 @@ select {
     background-color: black;
     color: white;
     border: solid var(--color-acento);
-}
-select option {
-    font-family: var(--fuente-textos);
-    font-size: 1.4rem;
 }
 
 input[type=radio] {
