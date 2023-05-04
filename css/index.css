@@ -260,19 +260,18 @@ header {
 
 /* Botones ver más y ver menos */
 
-.cambia-color {
+#section-3 a {
     color: white;
-}
-.cambia-color:hover {
-    color: var(--color-acento);
+    text-decoration: none;
 }
 
-#section-3 a {
-    text-decoration: none;
+#section-3 a:hover {
+    color: var(--color-acento);
 }
 
 .icono-flecha {
     width: 1rem;
+    background-color: var(--color-acento);
     border-radius: 50%;
 }
 
