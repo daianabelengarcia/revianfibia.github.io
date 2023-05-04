@@ -358,9 +358,10 @@ header {
     background: none;
 }
 
-input {
+input, select {
+    text-align: left;
     appearance: none;
-    padding: 0.5rem;
+    padding: 0.5rem 2rem;
     margin: 1rem 2rem;
 }
 

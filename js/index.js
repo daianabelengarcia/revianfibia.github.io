@@ -35,4 +35,3 @@ function populateYears () {
       yearSelect.appendChild(option);
     }
   }
-}
