@@ -215,6 +215,11 @@ header {
     display: none;
 }
 
+.visible {
+    display: flex;
+    justify-content: center;
+}
+
 #section-3 {
     background-color: var(--color-secundario);
     padding-top: 0.1rem;
@@ -237,10 +242,6 @@ header {
     align-items: center;
 }
 
-#cta-desplegado, #docente-cta {
-    display: flex;
-    justify-content: center;
-}
 
 #docente-visible {
     padding: 4rem 4rem 4rem 0rem;

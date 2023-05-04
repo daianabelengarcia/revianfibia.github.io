@@ -15,19 +15,23 @@ $(document).ready(() => {
 function mostrarTodo() {
 
     $("#docente-desplegable").removeClass("oculto");
-    $(".linea").removeClass ("oculto");
-    $("#docente-cta").addClass ("oculto");
     $("#docente-desplegable").addClass("docente-desplegado");
-    $("#vermas").addClass("oculto");
+    $(".linea").removeClass ("oculto");
+    $("#cta-docente").removeClass("visible");
+    $("#cta-docente").addClass ("oculto");
     $("#cta-desplegado").removeClass("oculto");
+    $("#cta-desplegado").addClass("visible");
+    $("#vermas").addClass("oculto");
 }
 
 function ocultarTodo() {
     $("#docente-desplegable").removeClass("docente-desplegado");
-    $(".linea").addClass ("oculto");
     $("#docente-desplegable").addClass("oculto");
+    $(".linea").addClass ("oculto");
     $("#vermas").removeClass("oculto");
-    $("#docente-cta").removeClass("oculto");
+    $("#cta-docente").removeClass("oculto");
+    $("#cta-docente").addClass("visible");
+    $("#cta-desplegado").removeClass("oculto");
     $("#cta-desplegado").addClass("oculto");
 }
 
