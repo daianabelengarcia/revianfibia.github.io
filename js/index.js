@@ -2,9 +2,11 @@ $(document).ready(() => {
 
     let mostrar = document.getElementById("vermas");
     let ocultar = document.getElementById("vermenos");
+    let yearSelect = document.getElementById("year");
 
     mostrar.addEventListener("click", mostrarTodo);
     ocultar.addEventListener("click", ocultarTodo);
+    yearSelect.addEventListener ("click", populateYears);
 
 
 })
@@ -25,3 +27,16 @@ function ocultarTodo() {
     $("#vermas").removeClass("oculto");
 }
 
+function populateYears () {
+    let date = new Date();
+    let year = date.getFullYear();
+  
+    // Hacer que este año y los cien años anteriores estén en el <select>
+    for (var i = 0; i <= 100; i++) {
+      let option = document.createElement("option");
+      option.textContent = year - i;
+      yearSelect.appendChild(option);
+    }
+    <option selected>AÑO</option>
+  }
+}
