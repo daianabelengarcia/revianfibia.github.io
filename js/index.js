@@ -36,11 +36,10 @@ function ocultarTodo() {
 }
 
 function populateYears () {
-    let actual = '2023';
     // Hacer que este año y los cien años anteriores estén en el <select>
     for (let i = 0; i <= 100; i++) {
       let option = document.createElement("option");
-      option.textContent = parceInt(actual) - i;
+      option.textContent = toString(2023 - i);
       yearSelect.appendChild(option);
     }
   }
