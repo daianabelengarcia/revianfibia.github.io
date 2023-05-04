@@ -237,6 +237,11 @@ header {
     align-items: center;
 }
 
+#cta-desplegado, #docente-cta {
+    display: flex;
+    justify-content: center;
+}
+
 #docente-visible {
     padding: 4rem 4rem 4rem 0rem;
 }

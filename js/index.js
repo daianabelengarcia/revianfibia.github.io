@@ -16,8 +16,10 @@ function mostrarTodo() {
 
     $("#docente-desplegable").removeClass("oculto");
     $(".linea").removeClass ("oculto");
+    $("#docente-cta").addClass ("oculto");
     $("#docente-desplegable").addClass("docente-desplegado");
     $("#vermas").addClass("oculto");
+    $("#cta-desplegado").removeClass("oculto");
 }
 
 function ocultarTodo() {
@@ -25,6 +27,8 @@ function ocultarTodo() {
     $(".linea").addClass ("oculto");
     $("#docente-desplegable").addClass("oculto");
     $("#vermas").removeClass("oculto");
+    $("#docente-cta").removeClass("oculto");
+    $("#cta-desplegado").addClass("oculto");
 }
 
 function populateYears () {
