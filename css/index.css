@@ -174,10 +174,6 @@ header {
 
 /* Sección 2 */
 
-#section-2 {
-    padding: 2rem;
-}
-
 .recuadros {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -221,7 +217,6 @@ header {
 
 #section-3 {
     background-color: var(--color-secundario);
-    margin: 2rem;
     padding-top: 0.1rem;
 }
 
@@ -281,9 +276,6 @@ header {
 }
 
 /* Sección 4 */
-#section-4 {
-    margin: 6rem 2rem;
-}
 
 .cursada {
     padding: 4rem;
@@ -316,8 +308,6 @@ header {
 
 /* Sección 5*/
 #section-5 {
-    padding: 6rem 2rem;
-    margin: 2rem;
     background-image: url(../img/fondo-circulos.svg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -333,7 +323,7 @@ header {
 
 .globos-1,
 .globos-2 {
-    width: 50%;
+    width: 40%;
     aspect-ratio: 1/1;
     background: var(--color-secundario);
     box-shadow: 0rem 0.5rem 0.5rem 0rem rgb(0 0 0 / 20%);
@@ -353,7 +343,6 @@ header {
 /*Formulario*/
 #formulario {
     background-color: black;
-    margin: 6rem 2rem;
     border:0.5rem solid var(--color-acento);
     padding: 2rem;
 }
