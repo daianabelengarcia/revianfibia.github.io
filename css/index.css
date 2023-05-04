@@ -349,7 +349,7 @@ header {
 input {
     appearance: none;
     padding: 0.5rem;
-    margin-left: 2rem;
+    margin: 1rem 2rem;
 }
 
 input[type=text],
@@ -369,6 +369,10 @@ input[type=radio] {
 input[type=checkbox] {
     padding: 0.5rem;
     border: solid var(--color-acento);
+}
+
+input[type=radio]:checked, input[type=checkbox]:checked {
+    background-color: var(--color-acento);
 }
 
 /* Pie de página */
