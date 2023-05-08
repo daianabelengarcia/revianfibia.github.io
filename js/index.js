@@ -2,11 +2,9 @@ $(document).ready(() => {
 
     let mostrar = document.getElementById("vermas");
     let ocultar = document.getElementById("vermenos");
-    let yearSelect = document.getElementById("year");
 
     mostrar.addEventListener("click", mostrarTodo);
     ocultar.addEventListener("click", ocultarTodo);
-    yearSelect.addEventListener ("click", populateYears);
 
 window.sr = ScrollReveal();
 
