@@ -9,7 +9,7 @@ $(document).ready(() => {
 window.sr = ScrollReveal();
 
 sr.reveal('#section-1', {
-duration: 10000,
+duration: 3000,
 origin: 'left',
 distance: '6rem',
 });
