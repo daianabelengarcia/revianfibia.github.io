@@ -57,6 +57,10 @@ main {
     background-color: white;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Encabezado */
 
 header {
@@ -273,12 +277,14 @@ a {
 
 /* Botones ver más y ver menos */
 
-#vermas, #vermenos {
+#vermas,
+#vermenos {
     margin-left: 4rem;
     color: white;
 }
 
-#vermas:hover, #vermenos:hover {
+#vermas:hover,
+#vermenos:hover {
     color: var(--color-acento);
 }
 
