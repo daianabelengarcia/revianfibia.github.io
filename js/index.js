@@ -38,6 +38,20 @@ $(document).ready(() => {
     origin: "top",
     distance: "6rem",
   });
+
+  // Smooth scrolling con JQ
+  $("a").on('click', function(event) {
+
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        window.location.hash = hash;
+      });
+    } 
+  });
 });
 function mostrarTodo() {
   $("#docente-desplegable").removeClass("oculto");
