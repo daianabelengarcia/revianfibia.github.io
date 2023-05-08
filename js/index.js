@@ -39,7 +39,7 @@ $(document).ready(() => {
     origin: "top",
     distance: "6rem",
   });
-  sr.reveal(cta.addEventListener ("click"){
+  sr.reveal(cta.addEventListener ("click"),{
     duration: 6000,
     origin: "top",
   })
