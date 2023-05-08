@@ -13,22 +13,7 @@ $(document).ready(() => {
     origin: "left",
     distance: "6rem",
   });
-  sr.reveal(".cursada-texto-1", {
-    duration: 4000,
-    origin: "left",
-    distance: "6rem",
-  });
-  sr.reveal(".cursada-texto-2", {
-    duration: 4000,
-    origin: "left",
-    distance: "6rem",
-  });
   sr.reveal(".descripcion-2", {
-    duration: 4000,
-    origin: "right",
-    distance: "6rem",
-  });
-  sr.reveal(".cursada-img", {
     duration: 4000,
     origin: "right",
     distance: "6rem",
@@ -36,6 +21,21 @@ $(document).ready(() => {
   sr.reveal(".recuadros", {
     duration: 3000,
     origin: "top",
+    distance: "6rem",
+  });
+  sr.reveal(".cursada-texto-1", {
+    duration: 4000,
+    origin: "right",
+    distance: "6rem",
+  });
+  sr.reveal(".cursada-texto-2", {
+    duration: 4000,
+    origin: "right",
+    distance: "6rem",
+  });
+  sr.reveal(".cursada-img", {
+    duration: 4000,
+    origin: "left",
     distance: "6rem",
   });
 
