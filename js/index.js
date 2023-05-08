@@ -19,13 +19,13 @@ $(document).ready(() => {
   });
   sr.reveal(".recuadros", {
     duration: 4000,
-    origin: "bottom",
+    origin: "top",
     distance: "6rem",
   });
   sr.reveal(".docente-desplegado", {
-    duration: 2000,
-    origin: "bottom",
-    distance: "1rem",
+    duration: 3000,
+    origin: "top",
+    distance: "2rem",
   })
 });
 
