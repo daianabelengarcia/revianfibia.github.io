@@ -88,6 +88,10 @@ header {
     width: 2rem;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Portada */
 
 #portada {
@@ -272,7 +276,6 @@ header {
 #section-3 a {
     margin-left: 4rem;
     color: white;
-    text-decoration: none;
 }
 
 #section-3 a:hover {
