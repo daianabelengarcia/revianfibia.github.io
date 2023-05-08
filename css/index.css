@@ -273,12 +273,12 @@ a {
 
 /* Botones ver más y ver menos */
 
-#section-3 a {
+#vermas, #vermenos {
     margin-left: 4rem;
     color: white;
 }
 
-#section-3 a:hover {
+#vermas:hover, #vermenos:hover {
     color: var(--color-acento);
 }
 
