@@ -1,9 +1,11 @@
 $(document).ready(() => {
   let mostrar = document.getElementById("vermas");
   let ocultar = document.getElementById("vermenos");
+  let cta = document.getElementById("cta.portada");
 
   mostrar.addEventListener("click", mostrarTodo);
   ocultar.addEventListener("click", ocultarTodo);
+  
 
   window.sr = ScrollReveal();
 
@@ -37,8 +39,11 @@ $(document).ready(() => {
     origin: "top",
     distance: "6rem",
   });
+  sr.reveal(cta.addEventListener ("click"){
+    duration: 6000,
+    origin: "top",
+  })
 });
-
 function mostrarTodo() {
   $("#docente-desplegable").removeClass("oculto");
   $("#docente-desplegable").addClass("docente-desplegado");
