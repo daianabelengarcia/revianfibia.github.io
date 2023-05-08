@@ -12,8 +12,8 @@ window.sr = ScrollReveal();
 
 sr.reveal('#section-1', {
 duration: 3000;
-origin: left;
-distance: 6rem;
+origin: 'left';
+distance: '6rem';
 });
 })
 
