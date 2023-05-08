@@ -101,7 +101,7 @@ a {
     display: grid;
     grid-template-columns: 4fr 3fr;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "h1 h1"
+    grid-template-areas: "h1 img"
         "p img"
         "cta img";
 }
