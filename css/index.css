@@ -14,7 +14,7 @@ body {
 h1 {
     font-family: var(--fuente-titulos);
     font-size: 3.4rem;
-    text-align: center;
+    text-align: left;
     color: white;
 }
 
@@ -40,16 +40,10 @@ p {
 }
 
 .form,
-input,
-select, #section-3 a {
+input, #section-3 a {
     color: white;
     font-size: 1.8rem;
     font-family: var(--fuente-textos);
-}
-
-select option {
-    font-family: var(--fuente-textos);
-    font-size: 1rem;
 }
 
 /* Conteiner */
@@ -203,8 +197,7 @@ header {
 .recuadros p {
     aspect-ratio: 1/1;
     padding: 1rem;
-    background: linear-gradient(135deg, var(--color-recuadros) 60%, var(--color-acento) 100%);
-    box-shadow: 0rem 0.5rem 0.5rem 0rem rgb(0 0 0 / 20%);
+    background: var(--color-recuadros);
     text-align: center;
     border-radius: 10%;
 }
@@ -330,12 +323,11 @@ header {
 
 .globos-1,
 .globos-2 {
-    width: 40%;
+    width: 20%;
     aspect-ratio: 1/1;
-    background: var(--color-secundario);
-    box-shadow: 0rem 0.5rem 0.5rem 0rem rgb(0 0 0 / 20%);
+    background: var(--color-recuadros);
     text-align: center;
-    border-radius: 50%;
+    border-radius: 10%;
 }
 
 .globos-2 {
@@ -372,8 +364,7 @@ header {
     padding: 0.5rem 1rem;
 }
 
-input,
-select {
+input {
     text-align: left;
     appearance: none;
     padding: 0.5rem 2rem;
@@ -381,8 +372,7 @@ select {
 }
 
 input[type=text],
-input[type=email],
-select {
+input[type=email] {
     background-color: black;
     color: white;
     border: solid var(--color-acento);

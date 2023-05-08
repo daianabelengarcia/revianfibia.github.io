@@ -35,12 +35,3 @@ function ocultarTodo() {
     $("#cta-desplegado").addClass("oculto");
 }
 
-function populateYears () {
-    actual = getFullYear();
-    // Hacer que este año y los cien años anteriores estén en el <select>
-    for (let i = 0; i <= 100; i++) {
-      let option = document.createElement("option");
-      option.textContent = actual - i;
-      yearSelect.appendChild(option);
-    }
-  }
