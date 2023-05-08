@@ -7,18 +7,28 @@ $(document).ready(() => {
 
   window.sr = ScrollReveal();
 
-  sr.reveal(".descripcion-1 .cursada-texto-1", {
+  sr.reveal(".descripcion-1", {
     duration: 4000,
     origin: "left",
     distance: "6rem",
   });
-  sr.reveal(".descripcion-2 .cursada-texto-2", {
+  sr.reveal(".cursada-texto-1", {
+    duration: 4000,
+    origin: "right",
+    distance: "6rem",
+  });
+  sr.reveal(".cursada-texto-2", {
+    duration: 4000,
+    origin: "left",
+    distance: "6rem",
+  });
+  sr.reveal(".descripcion-2", {
     duration: 4000,
     origin: "right",
     distance: "6rem",
   });
   sr.reveal(".recuadros", {
-    duration: 4000,
+    duration: 3000,
     origin: "top",
     distance: "6rem",
   });
