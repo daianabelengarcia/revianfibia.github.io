@@ -8,11 +8,16 @@ $(document).ready(() => {
 
 window.sr = ScrollReveal();
 
-sr.reveal('#section-1', {
+sr.reveal('.descripcion-1', {
 duration: 3000,
 origin: 'left',
 distance: '6rem',
 });
+sr.reveal('.descripcion-2', {
+    duration: 3000,
+    origin: 'right',
+    distance: '6rem',
+    });
 })
 
 
