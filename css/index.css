@@ -14,6 +14,7 @@
     src: url('../fonts/roboto-bold.ttf') format('truetype');
     font-weight: 700;
   }
+
 body {
     font-size: 10px;
     --color-acento: #f2b3b3;
