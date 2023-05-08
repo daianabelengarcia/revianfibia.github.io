@@ -91,7 +91,7 @@ header {
 /* Portada */
 
 #portada {
-    padding: 2rem;
+    padding: 2rem 4rem;
     background: linear-gradient(black, 95%, transparent);
     display: grid;
     grid-template-columns: 2fr 2fr;

@@ -8,7 +8,13 @@ $(document).ready(() => {
     ocultar.addEventListener("click", ocultarTodo);
     yearSelect.addEventListener ("click", populateYears);
 
+window.sr = ScrollReveal();
 
+sr.reveal('#section-1', {
+duration: 3000;
+origin: left;
+distance: 6rem;
+});
 })
 
 
@@ -34,4 +40,3 @@ function ocultarTodo() {
     $("#cta-desplegado").removeClass("visible");
     $("#cta-desplegado").addClass("oculto");
 }
-
