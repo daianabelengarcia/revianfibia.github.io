@@ -1,45 +1,52 @@
 $(document).ready(() => {
+  let mostrar = document.getElementById("vermas");
+  let ocultar = document.getElementById("vermenos");
 
-    let mostrar = document.getElementById("vermas");
-    let ocultar = document.getElementById("vermenos");
+  mostrar.addEventListener("click", mostrarTodo);
+  ocultar.addEventListener("click", ocultarTodo);
 
-    mostrar.addEventListener("click", mostrarTodo);
-    ocultar.addEventListener("click", ocultarTodo);
+  window.sr = ScrollReveal();
 
-window.sr = ScrollReveal();
-
-sr.reveal('.descripcion-1', {
-duration: 3000,
-origin: 'left',
-distance: '6rem',
+  sr.reveal(".descripcion-1", {
+    duration: 4000,
+    origin: "left",
+    distance: "6rem",
+  });
+  sr.reveal(".descripcion-2", {
+    duration: 4000,
+    origin: "right",
+    distance: "6rem",
+  });
+  sr.reveal(".recuadros", {
+    duration: 4000,
+    origin: "bottom",
+    distance: "6rem",
+  });
+  sr.reveal(".docente-desplegado", {
+    duration: 2000,
+    origin: "bottom",
+    distance: "1rem",
+  })
 });
-sr.reveal('.descripcion-2', {
-    duration: 3000,
-    origin: 'right',
-    distance: '6rem',
-    });
-})
-
 
 function mostrarTodo() {
-
-    $("#docente-desplegable").removeClass("oculto");
-    $("#docente-desplegable").addClass("docente-desplegado");
-    $(".linea").removeClass ("oculto");
-    $("#cta-docente").removeClass("visible");
-    $("#cta-docente").addClass ("oculto");
-    $("#cta-desplegado").removeClass("oculto");
-    $("#cta-desplegado").addClass("visible");
-    $("#vermas").addClass("oculto");
+  $("#docente-desplegable").removeClass("oculto");
+  $("#docente-desplegable").addClass("docente-desplegado");
+  $(".linea").removeClass("oculto");
+  $("#cta-docente").removeClass("visible");
+  $("#cta-docente").addClass("oculto");
+  $("#cta-desplegado").removeClass("oculto");
+  $("#cta-desplegado").addClass("visible");
+  $("#vermas").addClass("oculto");
 }
 
 function ocultarTodo() {
-    $("#docente-desplegable").removeClass("docente-desplegado");
-    $("#docente-desplegable").addClass("oculto");
-    $(".linea").addClass ("oculto");
-    $("#vermas").removeClass("oculto");
-    $("#cta-docente").removeClass("oculto");
-    $("#cta-docente").addClass("visible");
-    $("#cta-desplegado").removeClass("visible");
-    $("#cta-desplegado").addClass("oculto");
+  $("#docente-desplegable").removeClass("docente-desplegado");
+  $("#docente-desplegable").addClass("oculto");
+  $(".linea").addClass("oculto");
+  $("#vermas").removeClass("oculto");
+  $("#cta-docente").removeClass("oculto");
+  $("#cta-docente").addClass("visible");
+  $("#cta-desplegado").removeClass("visible");
+  $("#cta-desplegado").addClass("oculto");
 }
