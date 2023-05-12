@@ -377,7 +377,9 @@ input {
     padding: 0.3rem 1rem;
     margin: 0rem 2rem;
 }
-
+.input2 {
+    margin-top: 1rem;
+}
 label {
     margin-left: 1rem;
 }
