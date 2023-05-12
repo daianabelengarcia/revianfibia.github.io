@@ -75,7 +75,7 @@ main {
 
 header {
     background-color: black;
-    padding: 1rem 2rem;
+    padding: 1rem 4rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -184,7 +184,7 @@ a {
     background-image: url("../img/frame1.svg");
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 6rem 2rem 10rem 2rem;
+    padding: 6rem 4rem 10rem 4rem;
     margin: 2rem 0rem 0rem 0rem;
 }
 
