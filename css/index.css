@@ -343,30 +343,12 @@ a {
     margin: 6rem 0rem;
 }
 
-#section-5 h2 {
-    background-color: transparent;
-    color: var(--color-secundario);
+.h2-5 {
+    padding: 2rem;
+    background-color: var(--color-recuadros);
+    color: black;
 }
 
-.globos-1,
-.globos-2 {
-    width: 100%;
-    aspect-ratio: 1/1;
-    background: var(--color-recuadros);
-    text-align: center;
-}
-
-.globos-1 {
-    padding-left: 26rem;
-    margin-right: 2rem;
-    border-radius: 0% 10% 10% 0%;
-}
-
-.globos-2 {
-    padding-right: 26rem;
-    margin-left: 2rem;
-    border-radius: 10% 0% 0% 10%;
-}
 
 /*Formulario*/
 #formulario {
