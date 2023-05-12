@@ -384,26 +384,28 @@ input {
 
 input[type=text],
 input[type=email] {
-    background-color: black;
+    background-color: transparent;
     color: white;
     border: solid var(--color-acento);
 }
 
 input[type=radio] {
     border-radius: 50%;
-    padding: 0.5rem;
+    padding: 0.6rem;
     border: solid var(--color-acento);
 }
 
 input[type=checkbox] {
     padding: 0.5rem;
-    border: solid var(--color-acento);
+    border: 0.3rem solid var(--color-acento);
 }
 
 input[type=radio]:checked,
 input[type=checkbox]:checked {
-    background-color: var(--color-acento);
+    border: 0.3rem solid var(--color-acento);
+    background-color: white;
 }
+
 
 /* Pie de página */
 footer {
