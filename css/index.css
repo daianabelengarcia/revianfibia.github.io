@@ -167,15 +167,15 @@ a {
 }
 
 .cta:hover {
-    background-color: white;
-    border-color: var(--color-secundario);
-    color: var(--color-secundario);
+    background-color: var(--color-acento);
+    border-color: white;
+    color: white;
 }
 
 /* Secciones */
 
 .section {
-    margin: 6rem 2rem;
+    margin: 6rem 4rem;
 }
 
 /* Sección 1 */
@@ -304,6 +304,7 @@ a {
 
 .icono-flecha {
     width: 1rem;
+    padding: 0rem 0rem 0.3rem 0.3rem;
 }
 
 /* Sección 4 */
@@ -336,13 +337,8 @@ a {
 }
 
 /* Sección 5*/
-#section-5 {
-    display: flex;
-    margin: 6rem 0rem;
-}
-
 .h2-5 {
-    padding: 2rem;
+    padding: 2rem 13rem;
     background-color: var(--color-recuadros);
     color: black;
 }
@@ -350,6 +346,7 @@ a {
 
 /*Formulario*/
 #formulario {
+    margin: 6rem 4rem;
     background-color: black;
     border: 0.5rem solid var(--color-acento);
     padding: 2rem;
@@ -376,9 +373,14 @@ a {
 input {
     text-align: left;
     appearance: none;
-    padding: 0.5rem 2rem;
+    padding: 0.3rem 1rem;
     margin: 1rem 2rem;
 }
+
+label {
+    margin-left: 1rem;
+}
+
 
 input[type=text],
 input[type=email] {
