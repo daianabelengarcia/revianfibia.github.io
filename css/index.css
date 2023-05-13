@@ -235,7 +235,10 @@ a {
     padding: 1rem;
     background: var(--color-recuadros);
     text-align: center;
-    border-radius: 10%;
+}
+
+.recuadros p:hover {
+    background: linear-gradient(180deg, rgba(252,240,240,1) 70%, rgba(242,179,179,1) 100%);
 }
 
 /*Sección 3 - Desplegable*/
@@ -527,4 +530,10 @@ footer {
     grid-area: logop;
     width: 10rem;
     margin: auto;
+}
+
+@media screen and (max-width: 500px) {
+body {
+    font-size: 5px;
+}
 }
