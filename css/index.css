@@ -2,18 +2,23 @@
 
 @font-face {
     font-family: 'Oswald';
+    /*Titulos*/
     src: url('../fonts/oswald-regular.ttf') format('truetype');
-  }
-  @font-face {
+}
+
+@font-face {
     font-family: 'Roboto';
+    /*Texto normal*/
     src: url('../fonts/roboto-regular.ttf') format('truetype');
     font-weight: 400;
-  }
-  @font-face {
+}
+
+@font-face {
     font-family: 'Roboto';
+    /*Texto bold*/
     src: url('../fonts/roboto-bold.ttf') format('truetype');
     font-weight: 700;
-  }
+}
 
 body {
     font-size: 10px;
@@ -26,7 +31,7 @@ body {
 
 h1 {
     font-family: var(--fuente-titulos);
-    font-size: 2.9rem;
+    font-size: 2.7rem;
     text-align: left;
     color: white;
 }
@@ -66,11 +71,6 @@ body {
     margin: 0px;
 }
 
-main {
-    background-color: white;
-}
-
-
 /* Encabezado */
 
 header {
@@ -80,6 +80,7 @@ header {
     align-items: center;
     justify-content: space-between;
     border-bottom: 0.5rem solid var(--color-acento);
+    /*Borde rosa debajo del encabezado*/
 }
 
 .logo {
@@ -91,7 +92,7 @@ header {
 .iconos {
     padding: 10px;
     border-radius: 50%;
-    background: var(--color-acento);
+    background-color: var(--color-acento);
 }
 
 .iconos:hover {
@@ -112,6 +113,7 @@ a {
     padding: 2rem 4rem;
     background: linear-gradient(black, 95%, transparent);
     display: grid;
+    /*Distribución portada*/
     grid-template-columns: 4fr 3fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: "h1 img"
@@ -149,6 +151,8 @@ a {
 .cta-portada {
     grid-area: cta;
 }
+
+/* Call to action */
 
 .cta {
     font-family: var(--fuente-titulos);
@@ -337,6 +341,7 @@ a {
 }
 
 /* Sección 5*/
+
 .h2-5 {
     padding: 2rem 13rem;
     background-color: var(--color-recuadros);
@@ -345,7 +350,9 @@ a {
 
 
 /*Formulario*/
+
 #formulario {
+    /*Recuadro del form*/
     margin: 6rem 4rem;
     background-color: black;
     border: 0.5rem solid var(--color-acento);
@@ -358,6 +365,7 @@ a {
 }
 
 .form-centrado {
+    /*Distribución contenido form*/
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -372,14 +380,18 @@ a {
 }
 
 input {
+    /*Todos los input*/
     text-align: left;
     appearance: none;
     padding: 0.3rem 1rem;
     margin: 0rem 2rem;
 }
+
 .input2 {
+    /*Button radio y checkbox*/
     margin-top: 1rem;
 }
+
 label {
     margin-left: 1rem;
 }
@@ -403,10 +415,12 @@ input[type=checkbox] {
 }
 
 input[type=radio]:checked {
+    /*Radio button seleccionado*/
     background-color: var(--color-recuadros);
 }
 
 input[type=checkbox]:checked {
+    /*Checkbox seleccionado*/
     background-image: url("../img/checkbox.png");
     background-size: contain;
 }
@@ -442,4 +456,53 @@ footer {
 #direccion-pie p {
     text-align: left;
     color: white;
+}
+
+/* Pop-up */
+#popup {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.contenedor-popup {
+    width: 60%;
+    height: width/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "cerrar cerrar"
+        "h2-popup h2-popup"
+        "p1 img-popup"
+        "p2 img-popup"
+        "logop logop";
+    column-gap: 2rem;
+}
+
+#cerrar {
+    grid-area: cerrar;
+    width: 1rem;
+    margin-left: auto;
+}
+
+#popup h2 {
+    grid-area: h2-popup;
+    text-align: center;
+}
+
+.p1-popup {
+    grid-area: p1;
+}
+
+.p2-popup {
+    grid-area: p2;
+}
+
+.ilustracion-popup {
+    grid-area: img-popup;
+}
+
+.logo-popup {
+    grid-area: logop;
+    width: 5rem;
+    display: flex;
+    justify-content: center;
 }
