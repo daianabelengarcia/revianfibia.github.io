@@ -20,11 +20,12 @@
     font-weight: 700;
 }
 
-html {
+/*html {
     font-size: 10px;
-}
+}*/
 
 body {
+    font-size: 10px;
     --color-acento: #f2b3b3;
     --color-secundario: #013158;
     --color-recuadros: #fcf0f0;
