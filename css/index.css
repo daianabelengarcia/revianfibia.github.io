@@ -464,14 +464,17 @@ footer {
 }
 
 .contenedor-popup {
-    width: 60%;
-    height: width/3;
+    margin: auto;
+    width: 50rem;
+    height: 30rem;
+    padding: 2rem;
     background-color: white;
     border: 0.5rem solid var(--color-acento);
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: "cerrar cerrar"
+    grid-template-areas:
+        "cerrar cerrar"
         "h2-popup h2-popup"
         "p1 img-popup"
         "p2 img-popup"
@@ -492,10 +495,13 @@ footer {
     text-align: center;
     color: black;
     background-color: transparent;
+    margin-top: 0rem;
+    padding-top:0rem;
 }
 
 .p1-popup {
     grid-area: p1;
+    margin-bottom: 0rem;
 }
 
 .p2-popup {
@@ -508,7 +514,6 @@ footer {
 
 .logo-popup {
     grid-area: logop;
-    width: 5rem;
-    display: flex;
-    justify-content: center;
+    width: 10rem;
+    margin: auto;
 }
