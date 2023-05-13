@@ -460,7 +460,7 @@ footer {
 }
 
 /* Pop-up */
-#popup .popup-visible {
+.popup-visible {
     position: fixed;
     top: 0;
     left: 0;
