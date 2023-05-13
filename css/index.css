@@ -536,11 +536,39 @@ footer {
 }
 
 @media screen and (max-width: 500px) {
-    html {
-        font-size: 5px;
-    }
-
     header .iconos {
         display: none;
+    }
+
+    .logo {
+        width: 12rem;
+    }
+
+    .logo,
+    .cta-portada {
+        margin: auto;
+    }
+
+    #portada {
+        padding: 2rem 2rem 10rem 2rem;
+        display: block;
+    }
+
+    h1,
+    .p-portada {
+        text-align: center;
+    }
+
+    .img-portada img {
+        width: 80%;
+    }
+
+    .cta {
+        font-size: 2rem;
+        padding: 1rem 2rem;
+    }
+
+    .section {
+        margin: 4rem 2rem;
     }
 }
