@@ -466,6 +466,8 @@ footer {
 .contenedor-popup {
     width: 60%;
     height: width/3;
+    background-color: white;
+    border: 0.5rem solid var(--color-acento);
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -479,13 +481,17 @@ footer {
 
 #cerrar {
     grid-area: cerrar;
-    width: 1rem;
     margin-left: auto;
+} 
+#cerrar img {
+    width: 1rem;
 }
 
 #popup h2 {
     grid-area: h2-popup;
     text-align: center;
+    color: black;
+    background-color: transparent;
 }
 
 .p1-popup {
