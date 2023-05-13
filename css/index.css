@@ -423,6 +423,7 @@ input[type=checkbox]:checked {
     /*Checkbox seleccionado*/
     background-image: url("../img/checkbox.png");
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 
@@ -460,6 +461,7 @@ footer {
 
 /* Pop-up */
 #popup {
+    position: absolute;
     background-color: rgba(0, 0, 0, 0.2);
 }
 
