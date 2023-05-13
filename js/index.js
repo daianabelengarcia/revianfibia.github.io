@@ -102,15 +102,15 @@ $(document).ready(() => {
   //Función trasladar datos del formulario
   function datosFeedback() {
     const inputNombre = $("#nombre");
-    const inputEmail = $("#email");
+    const inputCorreo = $("#correo");
   
     const nombre = inputNombre.val();
-    const email = inputEmail.val();
+    const correo = inputCorreo.val();
   
     const spanNombre = $("#dato-nombre");
-    const spanEmail = $("#dato-email");
+    const spanCorreo = $("#dato-email");
   
     spanNombre.html(nombre);
-    spanEmail.html(email);
+    spanCorreo.html(correo);
   }
 });
