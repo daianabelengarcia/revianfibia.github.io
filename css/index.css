@@ -485,6 +485,7 @@ footer {
 #cerrar {
     grid-area: cerrar;
     margin-left: auto;
+    height: 1rem;
 } 
 #cerrar img {
     width: 1rem;
@@ -495,8 +496,8 @@ footer {
     text-align: center;
     color: black;
     background-color: transparent;
-    margin-top: 0rem;
-    padding-top:0rem;
+    margin: 0rem;
+    padding: 0rem;
 }
 
 .p1-popup {
@@ -510,6 +511,8 @@ footer {
 
 .ilustracion-popup {
     grid-area: img-popup;
+    width: 100%;
+    margin: auto;
 }
 
 .logo-popup {
