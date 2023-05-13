@@ -442,7 +442,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
+    padding: 1rem 0rem;
 }
 
 #logos-pie img {
@@ -457,9 +457,10 @@ footer {
 #direccion-pie p {
     text-align: left;
     color: white;
+    padding-left: 4rem;
 }
 
-/* Pop-up */
+/* Popup - Feedback */
 .popup-visible {
     position: fixed;
     bottom: 0;
