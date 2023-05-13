@@ -75,7 +75,7 @@ body {
 
 header {
     background-color: black;
-    padding: 1rem 4rem;
+    padding: 0.5rem 4rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -84,13 +84,13 @@ header {
 }
 
 .logo {
-    width: 10rem;
+    width: 8rem;
 }
 
 /* Redes sociales */
 
 .iconos {
-    padding: 10px;
+    padding: 0.6rem;
     border-radius: 50%;
     background-color: var(--color-acento);
 }
@@ -100,7 +100,7 @@ header {
 }
 
 .iconos img {
-    width: 2rem;
+    width: 1.5rem;
 }
 
 a {
@@ -110,7 +110,7 @@ a {
 /* Portada */
 
 #portada {
-    padding: 2rem 4rem;
+    padding: 4rem 4rem 6rem 4rem;
     background: linear-gradient(black, 95%, transparent);
     display: grid;
     /*Distribución portada*/
@@ -185,7 +185,7 @@ a {
 /* Sección 1 */
 
 #section-1 {
-    background-image: url("../img/frame1.svg");
+    background-image: url("../img/descripcion.png");
     background-size: cover;
     background-repeat: no-repeat;
     padding: 6rem 4rem 10rem 4rem;
