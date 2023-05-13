@@ -92,7 +92,7 @@ $(document).ready(() => {
     $("#cta-desplegado").addClass("oculto");
   }
   //Función mostrar feedback - form enviado
-  function abrirpopup() { 
+  function abrirPopup() { 
     $("#popup").removeClass("oculto");
   }
   //Función cerrar feedback
