@@ -20,8 +20,11 @@
     font-weight: 700;
 }
 
-body {
+html {
     font-size: 10px;
+}
+
+body {
     --color-acento: #f2b3b3;
     --color-secundario: #013158;
     --color-recuadros: #fcf0f0;
@@ -238,7 +241,7 @@ a {
 }
 
 .recuadros p:hover {
-    background: linear-gradient(180deg, rgba(252,240,240,1) 70%, rgba(242,179,179,1) 100%);
+    background: linear-gradient(180deg, rgba(252, 240, 240, 1) 70%, rgba(242, 179, 179, 1) 100%);
 }
 
 /*Sección 3 - Desplegable*/
@@ -533,7 +536,11 @@ footer {
 }
 
 @media screen and (max-width: 500px) {
-body {
-    font-size: 5px;
-}
+    html {
+        font-size: 5px;
+    }
+
+    header .iconos {
+        display: none;
+    }
 }
