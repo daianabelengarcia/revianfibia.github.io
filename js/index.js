@@ -94,9 +94,11 @@ $(document).ready(() => {
   //Función mostrar feedback - form enviado
   function abrirPopup() { 
     $("#popup").removeClass("oculto");
+    $("#popup").addClass("visible");
   }
   //Función cerrar feedback
   function cerrarPopup() {
+    $("#popup").removeClass("visible");
     $("#popup").addClass("oculto");
   }
   //Función trasladar datos del formulario
