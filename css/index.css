@@ -239,6 +239,10 @@ a {
     background: var(--color-recuadros);
     text-align: center;
 }
+.recuadros img {
+    height: 5rem;
+    margin: auto;
+}
 
 .recuadros p:hover {
     background: linear-gradient(180deg, rgba(252, 240, 240, 1) 70%, rgba(242, 179, 179, 1) 100%);
@@ -567,7 +571,7 @@ footer {
     }
 
     p {
-        font-size: 3.2rem;
+        font-size: 3.6rem;
     }
 
     header {
