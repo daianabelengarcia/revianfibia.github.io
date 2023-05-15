@@ -240,8 +240,7 @@ a {
     text-align: center;
 }
 .recuadros img {
-    height: 5rem;
-    margin: auto;
+    display: none;
 }
 
 .recuadros p:hover {
@@ -618,6 +617,12 @@ footer {
     .img-form,
     .docente-1 .linea {
         display: none;
+    }
+
+    .recuadros img {
+        display: block;
+        height: 6rem;
+        margin: 0rem auto 10rem auto;
     }
 
     .docente-2 img {
