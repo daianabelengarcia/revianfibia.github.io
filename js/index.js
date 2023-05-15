@@ -21,17 +21,17 @@ $(document).ready(() => {
   //Sección 1
   sr.reveal(".descr-1", {
     duration: 3000,
-    origin: "left",
+    origin: "right",
     distance: "6rem",
   });
   sr.reveal(".descr-2", {
     duration: 3000,
-    origin: "left",
+    origin: "right",
     distance: "6rem",
   });
   sr.reveal(".img-descripcion", {
     duration: 3000,
-    origin: "right",
+    origin: "left",
     distance: "6rem",
   });
 
