@@ -42,7 +42,7 @@ h1 {
 h2 {
     font-family: var(--fuente-titulos);
     font-size: 4rem;
-    padding: 2.5rem;
+    padding: 1rem;
     text-align: center;
     color: white;
     background-color: var(--color-secundario);
@@ -51,7 +51,7 @@ h2 {
 p {
     font-family: var(--fuente-textos);
     font-weight: 400;
-    font-size: 3.2rem;
+    font-size: 3rem;
     color: black;
 }
 
@@ -64,12 +64,8 @@ p {
 input,
 #section-3 a, #direccion-pie p {
     color: white;
-    font-size: 2.4rem;
+    font-size: 2.8rem;
     font-family: var(--fuente-textos);
-}
-
-#popup p {
-    font-size: 2.4rem;
 }
 
 /* Conteiner */
@@ -82,22 +78,23 @@ body {
 
 header {
     background-color: black;
-    padding: 2rem 6rem;
+    padding: 1rem 6rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1.5rem solid var(--color-acento);
+    border-bottom: 0.5rem solid var(--color-acento);
     /*Borde rosa debajo del encabezado*/
 }
 
 .logo {
-    width: 17rem;
+    width: 14rem;
 }
 
 /* Redes sociales */
 
 .iconos {
-    padding: 2rem;
+    padding: 1.2rem;
+    margin: 0.2rem;
     border-radius: 50%;
     background-color: var(--color-acento);
 }
@@ -117,7 +114,7 @@ a {
 /* Portada */
 
 #portada {
-    padding: 8rem 6rem;
+    padding: 4rem 6rem;
     background: linear-gradient(black, 95%, transparent);
     display: grid;
     /*Distribución portada*/
@@ -146,9 +143,7 @@ a {
 .p-portada {
     grid-area: p;
     text-align: left;
-    display: flex;
-    align-items: center;
-    margin-right: 4rem;
+    margin-right: 10rem;
 }
 
 .p-portada p {
@@ -163,13 +158,13 @@ a {
 
 .cta {
     font-family: var(--fuente-titulos);
-    font-size: 2.4rem;
+    font-size: 2.6rem;
     border-color: var(--color-acento);
     border-width: 3px;
     border-style: solid;
     background-color: transparent;
     color: var(--color-acento);
-    padding: 1rem;
+    padding: 0rem 3rem;
     height: 5rem;
     box-shadow: 0px 2px 5px 1px rgba(255, 255, 255, 0.2);
     display: flex;
@@ -191,22 +186,9 @@ a {
 
 /* Sección 1 */
 
-#section-1 {
-    background-image: url("../img/descripcion.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 6rem;
-    margin: 2rem 0rem 0rem 0rem;
-}
-
-.descripcion-1,
-.descripcion-2 {
+.descripcion {
     width: 50%;
-}
-
-.descripcion-2 {
-    padding-top: 10rem;
-    margin-left: auto;
+    margin-left:auto;
 }
 
 /* Sección 2 */
@@ -216,7 +198,7 @@ a {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "r1 r2 r3";
     column-gap: 4rem;
-    margin: 6rem 0rem;
+    margin: 4rem 0rem;
 }
 
 .centrado {
@@ -261,7 +243,7 @@ a {
 
 #section-3 {
     background-color: var(--color-secundario);
-    padding: 0.2rem 0rem 6rem 0rem;
+    padding: 0.1rem 0rem 6rem 0rem;
 }
 
 #section-3 h2 {
@@ -281,26 +263,21 @@ a {
     align-items: center;
 }
 
-
 #docente-visible {
-    padding: 6rem 6rem 6rem 0rem;
+   margin: 6rem 6rem 6rem 0rem;
 }
-
 .docente-desplegado {
-    padding: 0rem 0rem 6rem 0rem;
-}
-
-.docente-2 img {
-    border-radius: 10%;
+    margin-bottom: 6rem; 
 }
 
 .linea {
-    padding: 0% 15%;
-    width: 70%;
+    width: 45rem;
+    padding: 0rem 12rem;
 }
 
 .docente-3 .linea {
-    padding-top: 18%;
+    padding: 10rem 0rem 0rem 6rem;
+    width: 45rem;
 }
 
 /* Botones ver más y ver menos */
@@ -317,8 +294,8 @@ a {
 }
 
 .icono-flecha {
-    width: 2rem;
-    padding: 0rem 0rem 0.6rem 0.6rem;
+    width: 1.5rem;
+    padding: 0rem 0rem 0.4rem 0.4rem;
 }
 
 /* Sección 4 */
@@ -329,7 +306,7 @@ a {
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "img-c c1"
         "img-c c2";
-    column-gap: 2rem;
+    column-gap: 6rem;
 }
 
 .cursada-texto-1 {
@@ -344,18 +321,22 @@ a {
     grid-area: img-c;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .cursada-img img {
-    width: 100%;
+    width: 90%;
 }
 
 /* Sección 5*/
 
 .h2-5 {
-    padding: 4rem 20rem;
+    padding: 4rem;
     background-color: var(--color-recuadros);
     color: black;
+}
+.h2-5:hover {
+    background: linear-gradient(180deg, rgba(252, 240, 240, 1) 70%, rgba(242, 179, 179, 1) 100%);
 }
 
 
@@ -364,8 +345,8 @@ a {
 #formulario {
     /*Recuadro del form*/
     background-color: black;
-    border: 1rem solid var(--color-acento);
-    padding: 6rem;
+    border: 0.5rem solid var(--color-acento);
+    padding: 2rem 6rem;
 }
 
 #formulario h2 {
