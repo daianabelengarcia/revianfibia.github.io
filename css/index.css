@@ -194,13 +194,13 @@ a {
     "img-d descr-2";
 }
 .descr-1 {
-    grid-area: "descr-1";
+    grid-area: descr-1;
 }
 .img-descripcion {
-    grid-area: "img-d";
+    grid-area: img-d;
 }
 .descr-2 {
-    grid-area: "descr-2";
+    grid-area: descr-2;
 }
 
 
@@ -629,8 +629,8 @@ footer {
     }
 
     #section-1 {
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
         grid-template-areas: "descr-1"
         "img-d"
         "descr-2";
