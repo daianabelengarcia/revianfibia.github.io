@@ -563,7 +563,7 @@ footer {
 
 .ilustracion-popup {
     grid-area: img-popup;
-    width: 90%;
+    width: 70%;
     margin: auto;
 }
 
