@@ -730,7 +730,8 @@ footer {
     input[type=radio] {
         margin: 2rem;
     }
+
     .but-margin {
-margin-right: 2rem;
+        margin-right: 2rem;
     }
 }
