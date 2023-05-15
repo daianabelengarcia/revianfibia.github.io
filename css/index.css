@@ -361,13 +361,13 @@ a {
     align-items: center;
 }
 .form-sin-imagen {
-    width: 60%;
+    width: 70%;
 }
 .img-form {
-    width: 40%;
+    width: 45%;
 }
 .img-form img {
-    width: 50%;
+    width: 100%;
 }
 #formulario h2 {
     text-align: left;
@@ -384,7 +384,13 @@ a {
 }
 
 .form .cta {
-    margin: 2rem auto;
+    margin: 1rem;
+    background: var(--color-acento);
+    color: white;
+}
+.form .cta:hover {
+    background: white;
+    color:var(--color-acento);
 }
 
 input {
