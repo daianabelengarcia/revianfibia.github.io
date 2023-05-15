@@ -306,7 +306,7 @@ a {
 .linea {
     width: 30rem;
     padding: 0rem 14rem;
-    margin-top:6rem;
+    margin-top: 6rem;
 }
 
 .docente-3 .linea {
@@ -680,24 +680,29 @@ footer {
     }
 
     #docente-visible {
-        margin: 8rem 0rem 0rem 0rem;
+        margin: 8rem 6rem 0rem 6rem;
         flex-flow: column-reverse;
     }
 
     .docente-1 {
-        margin-bottom: 6rem;
+        margin: 2rem 6rem;
+        width: 100%;
+    }
+
+    .docente-1 .linea {
+        margin: 0rem 10rem;
+    }
+
+    .docente-2 {
+        width: 100%;
     }
 
     .docente-2 img {
-        width: 80%;
+        width: 100%;
     }
 
     .docente-desplegado {
         margin-bottom: 8rem;
-    }
-
-    .docente-1 .linea {
-        margin: 0rem 16rem;
     }
 
     .docente-3 .linea {
