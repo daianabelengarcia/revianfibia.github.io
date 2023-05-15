@@ -682,11 +682,12 @@ footer {
     .docente-desplegado {
         margin-bottom: 8rem;
     }
-
+    .docente-1 .linea {
+        margin: 0rem 16rem;
+    }
     .docente-3 .linea {
         padding: 6rem 0rem;
     }
-
     .linea {
         width: 40rem;
         margin: 2rem 0rem 0rem 10rem;
