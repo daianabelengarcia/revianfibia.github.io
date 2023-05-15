@@ -22,8 +22,8 @@ $(document).ready(() => {
     origin: "left",
     distance: "6rem",
   });
-  sr.reveal("",{
-    duration:3000,
+  sr.reveal(".img-form",{
+    duration: 3000,
     origin:"right",
     distance:"6rem",
   });
