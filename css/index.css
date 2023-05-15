@@ -582,6 +582,12 @@ footer {
         padding: 3rem;
     }
 
+    header .redes,
+    .img-form,
+    .docente-1 .linea {
+        display: none;
+    }
+
     header {
         justify-content: center;
         padding: 2rem;
@@ -589,6 +595,15 @@ footer {
 
     .logo {
         width: 25rem;
+    }
+
+    #portada,
+    #docente-visible,
+    .docente-desplegado,
+    .recuadros,
+    .form-centrado,
+    footer {
+        display: block;
     }
 
     #portada {
@@ -621,16 +636,20 @@ footer {
         background: var(--color-acento);
         color: white;
         padding: 0rem 8rem;
+        height: 8rem;
     }
 
-    header .redes,
-    .img-form,
-    .docente-1 .linea {
-        display: none;
+    #section-1 {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "descr-1"
+            "img-d"
+            "descr-2";
     }
 
-    .recuadros, .cursada {
-        margin: 10rem 6rem;
+    .recuadros,
+    .cursada {
+        margin: 6rem 6rem 12rem 6rem;
     }
 
     .recuadros p {
@@ -644,29 +663,8 @@ footer {
         padding: 6rem 0rem;
     }
 
-    .docente-2 img {
-        width: 80%;
-    }
-
-    #portada,
-    #docente-visible,
-    .docente-desplegado,
-    .recuadros,
-    .form-centrado,
-    footer {
-        display: block;
-    }
-
-    #section-1 {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        grid-template-areas: "descr-1"
-            "img-d"
-            "descr-2";
-    }
-
     #section-3 {
-        margin: 0rem 0rem 12rem 0rem;
+        margin: 16rem 0rem;
         padding: 1rem 0rem 8rem 0rem;
     }
 
