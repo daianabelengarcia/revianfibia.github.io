@@ -62,7 +62,8 @@ p {
 
 .form,
 input,
-#section-3 a, #direccion-pie p {
+#section-3 a,
+#direccion-pie p {
     color: white;
     font-size: 2.8rem;
     font-family: var(--fuente-textos);
@@ -188,7 +189,7 @@ a {
 
 .descripcion {
     width: 50%;
-    margin-left:auto;
+    margin-left: auto;
 }
 
 /* Sección 2 */
@@ -264,10 +265,11 @@ a {
 }
 
 #docente-visible {
-   margin: 6rem 6rem 6rem 0rem;
+    margin: 6rem 6rem 6rem 0rem;
 }
+
 .docente-desplegado {
-    margin-bottom: 6rem; 
+    margin-bottom: 6rem;
 }
 
 .linea {
@@ -335,6 +337,7 @@ a {
     background-color: var(--color-recuadros);
     color: black;
 }
+
 .h2-5:hover {
     background: linear-gradient(180deg, rgba(252, 240, 240, 1) 70%, rgba(242, 179, 179, 1) 100%);
 }
@@ -360,21 +363,19 @@ a {
     flex-direction: row;
     align-items: center;
     align-content: center;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
 }
 
 .form .cta {
-    height: auto;
-    margin: 4rem auto;
-    padding: 1rem 2rem;
+    margin: 2rem auto;
 }
 
 input {
     /*Todos los input*/
     text-align: left;
     appearance: none;
-    padding: 0.6rem 2rem;
-    margin: 0rem 4rem;
+    padding: 0.5rem 1rem;
+    margin: 0rem 3rem;
 }
 
 .input2 {
@@ -383,7 +384,7 @@ input {
 }
 
 label {
-    margin-left: 2rem;
+    margin-left: 1rem;
 }
 
 input[type=text],
@@ -401,7 +402,7 @@ input[type=radio] {
 
 input[type=checkbox] {
     padding: 1rem;
-    border: 0.6rem solid var(--color-acento);
+    border: 0.3rem solid var(--color-acento);
 }
 
 input[type=radio]:checked {
@@ -436,12 +437,12 @@ footer {
 }
 
 #logos-pie img {
-    width: 20rem;
+    width: 16rem;
     margin: 0rem 2rem;
 }
 
 #redes-pie .iconos {
-    margin: 0rem 2rem;
+    margin: 0rem 1rem;
 }
 
 #direccion-pie p {
@@ -462,11 +463,11 @@ footer {
 
 .contenedor-popup {
     margin: auto;
-    width: 100rem;
-    height: 60rem;
+    width: 80rem;
+    height: 40rem;
     padding: 6rem;
     background-color: white;
-    border: 1rem solid var(--color-acento);
+    border: 0.5rem solid var(--color-acento);
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -476,13 +477,13 @@ footer {
         "p1 img-popup"
         "p2 img-popup"
         "logop logop";
-    column-gap: 4rem;
+    column-gap: 2rem;
 }
 
 #cerrar {
     grid-area: cerrar;
     margin-left: auto;
-    height: 2rem;
+    height: 0rem;
 }
 
 #cerrar img {
@@ -500,11 +501,12 @@ footer {
 
 .p1-popup {
     grid-area: p1;
-    margin-bottom: 0rem;
+    margin: 4rem 0rem 0rem 0rem;
 }
 
 .p2-popup {
     grid-area: p2;
+    margin-bottom: 4rem;
 }
 
 .ilustracion-popup {
@@ -515,10 +517,8 @@ footer {
 
 .logo-popup {
     grid-area: logop;
-    width: 20rem;
+    width: 14rem;
     margin: auto;
 }
 
-@media screen and (max-width: 500px) {
-
-}
+@media screen and (max-width: 500px) {}
