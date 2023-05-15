@@ -630,7 +630,7 @@ footer {
 
     #section-1 {
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
         grid-template-areas: "descr-1"
         "img-d"
         "descr-2";
