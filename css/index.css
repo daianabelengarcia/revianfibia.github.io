@@ -673,11 +673,14 @@ footer {
     }
 
     .cursada {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
         grid-template-rows: 1fr;
         grid-template-areas: "c1"
             "img-c"
             "c2";
+    }
+    .cursada-texto-2 {
+        padding-top: 6rem;
     }
 
     #formulario {
