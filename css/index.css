@@ -563,7 +563,7 @@ footer {
 
 .ilustracion-popup {
     grid-area: img-popup;
-    width: 100%;
+    width: 90%;
     margin: auto;
 }
 
@@ -594,7 +594,7 @@ footer {
     h2 {
         padding: 3rem;
     }
-    .form p {
+    .form, input {
         font-size: 3.2rem;
     }
 
@@ -713,6 +713,7 @@ footer {
     .linea {
         width: 40rem;
         margin: 2rem 0rem 0rem 10rem;
+        padding: 0rem;
     }
 
     .cursada {
@@ -759,20 +760,20 @@ footer {
     }
 
     .but-margin {
-        margin-right: 1rem;
+        margin-right: 3rem;
     }
 
     .contenedor-popup {
         width: 50rem;
         height: 100rem;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-areas:
             "cerrar"
             "h2-popup"
+            "img-popup"
             "p1"
             "p2"
-            "img-popup"
             "logop";
     }
 
@@ -791,9 +792,10 @@ footer {
 
     .ilustracion-popup {
         width: 60%;
+        margin-top: 4rem;
     }
 
     .logo-popup {
-        padding-top: 6rem;
+        padding-top: 4rem;
     }
 }
