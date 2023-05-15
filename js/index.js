@@ -69,9 +69,13 @@ $(document).ready(() => {
 if (pantalla <= 500) {
   $("#s5-1").addClass("oculto");
   $("#s5-2").removeClass("oculto");
+  $("#alarcon-web").addClass("oculto");
+  $("#alarcon-mobile").removeClass("oculto");
 } else {
   $("#s5-2").addClass("oculto");
   $("#s5-1").removeClass("oculto");
+  $("#alarcon-web").removeClass("oculto");
+  $("#alarcon-mobile").addClass("oculto");
 }
 
   // Smooth scrolling con JQ
