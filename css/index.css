@@ -275,37 +275,48 @@ a {
 
 #section-3 p {
     color: white;
-    padding: 0rem 6rem;
+}
+
+.docente-1 {
+    width: 50%;
+}
+
+.docente-2 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+#alarcon-web {
+    width: 50rem;
+}
+
+#docente-visible p,
+.docente-3 p {
+    padding-right: 6rem;
 }
 
 #docente-visible,
 .docente-desplegado {
     display: flex;
     align-items: center;
-}
-
-#docente-visible {
-    margin: 6rem 6rem 6rem 0rem;
-}
-
-.docente-desplegado {
-    margin-bottom: 6rem;
+    margin: 6rem;
 }
 
 .linea {
     width: 30rem;
-    padding: 0rem 12rem;
+    padding: 0rem 14rem;
+    margin-top:6rem;
 }
 
 .docente-3 .linea {
-    padding: 10rem 0rem 0rem 6rem;
+    padding: 6rem 0rem 0rem 14rem;
 }
 
 /* Botones ver más y ver menos */
 
 #vermas,
 #vermenos {
-    margin-left: 6rem;
     color: white;
 }
 
@@ -328,7 +339,7 @@ a {
     grid-template-areas: "img-c c1"
         "img-c c2";
     column-gap: 6rem;
-    margin: 10rem 0rem;
+    margin: 10rem 6rem;
 }
 
 .cursada-texto-1 {
