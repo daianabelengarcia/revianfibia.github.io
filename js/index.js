@@ -86,9 +86,7 @@ $(document).ready(() => {
 
   if (pantalla <= 500) {
     $("#section-2").removeClass("section");
-    $(".recuadros").addClass("section");
     $("#section-4").removeClass("section");
-    $(".cursada").addClass("section");
     $("#section-5").removeClass("section");
   }
 
