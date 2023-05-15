@@ -568,6 +568,7 @@ footer {
         width: 80%;
     }
 
+    #portada,
     #docente-visible,
     .docente-desplegado,
     .recuadros,
@@ -603,10 +604,10 @@ footer {
     input {
         margin: 2rem 3rem;
     }
-    
+
     .input2 {
         margin-top: 0rem;
-        display:flex;
+        display: flex;
     }
 
 }
