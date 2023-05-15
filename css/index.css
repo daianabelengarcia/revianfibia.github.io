@@ -555,6 +555,10 @@ footer {
         font-size: 5px;
     }
 
+    .cta {
+        padding: 0rem 12rem;
+    }
+
     header .redes,
     .img-form,
     .docente-1 .linea {
@@ -574,7 +578,8 @@ footer {
     #docente-visible,
     .docente-desplegado,
     .recuadros,
-    .form-centrado, footer {
+    .form-centrado,
+    footer {
         display: block;
     }
 
@@ -599,17 +604,27 @@ footer {
             "c2";
     }
 
+    #formulario {
+        padding-bottom: 4rem;
+    }
+
     .form-sin-imagen {
         width: 100%;
     }
 
     input {
-        margin: 2rem 3rem;
+        margin: 2rem 1rem;
+        padding: 0rem 10rem 0rem 2rem;
     }
 
     .input2 {
-        margin-top: 0rem;
+        margin: 0rem 0rem 3rem 0rem;
         display: flex;
+        justify-content: center;
     }
 
+    input[type=checkbox],
+    input[type=radio] {
+        margin: 2rem;
+    }
 }
