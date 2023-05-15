@@ -379,7 +379,6 @@ a {
 #formulario {
     /*Recuadro del form*/
     background-color: black;
-    border: 0.5rem solid var(--color-acento);
     padding: 2rem 6rem;
     display: flex;
     align-items: center;
@@ -594,6 +593,9 @@ footer {
     h2 {
         padding: 3rem;
     }
+    .form p {
+        font-size: 3.2rem;
+    }
 
     header .redes,
     .img-form {
@@ -643,10 +645,8 @@ footer {
     }
 
     .form .cta {
-        margin: 6rem 1rem 4rem 1rem;
-        background: var(--color-acento);
-        color: white;
-        padding: 0rem 8rem;
+        margin: 6rem auto 0rem auto;
+        padding: 0rem 14rem;
         height: 8rem;
     }
 
@@ -728,6 +728,7 @@ footer {
 
     #formulario {
         padding: 10rem 6rem;
+        margin: 12rem 0rem;
     }
 
     #formulario h2 {
@@ -758,7 +759,7 @@ footer {
     }
 
     .but-margin {
-        margin-right: 3rem;
+        margin-right: 1rem;
     }
 
     .contenedor-popup {
