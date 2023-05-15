@@ -570,7 +570,9 @@ footer {
     }
 
     h1,
-    .p-portada {
+    .p-portada,
+    .p1-popup,
+    .p2-popup {
         text-align: center;
     }
 
@@ -682,12 +684,15 @@ footer {
     .docente-desplegado {
         margin-bottom: 8rem;
     }
+
     .docente-1 .linea {
         margin: 0rem 16rem;
     }
+
     .docente-3 .linea {
         padding: 6rem 0rem;
     }
+
     .linea {
         width: 40rem;
         margin: 2rem 0rem 0rem 10rem;
@@ -738,5 +743,40 @@ footer {
 
     .but-margin {
         margin-right: 3rem;
+    }
+
+    .contenedor-popup {
+        width: 50rem;
+        height: 100rem;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            "cerrar"
+            "h2-popup"
+            "p1"
+            "p2"
+            "img-popup"
+            "logop";
+    }
+
+    #cerrar {
+        height: 4rem;
+    }
+
+    #cerrar img {
+        width: 3rem;
+    }
+
+    .p1-popup,
+    .p2-popup {
+        text-align: center;
+    }
+
+    .ilustracion-popup {
+        width: 60%;
+    }
+
+    .logo-popup {
+        padding-top: 6rem;
     }
 }
