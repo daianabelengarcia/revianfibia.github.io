@@ -215,7 +215,7 @@ a {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "r1 r2 r3";
     column-gap: 4rem;
-    margin: 4rem 0rem;
+    margin: 6rem;
 }
 
 .centrado {
@@ -265,12 +265,12 @@ a {
 #section-3 {
     background-color: var(--color-secundario);
     padding: 0.1rem 0rem 6rem 0rem;
+    margin: 10rem 0rem;
 }
 
 #section-3 h2 {
     background-color: white;
     color: var(--color-secundario);
-    margin: 1rem;
 }
 
 #section-3 p {
@@ -328,6 +328,7 @@ a {
     grid-template-areas: "img-c c1"
         "img-c c2";
     column-gap: 6rem;
+    margin: 10rem 0rem;
 }
 
 .cursada-texto-1 {
