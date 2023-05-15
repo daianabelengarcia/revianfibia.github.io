@@ -280,13 +280,12 @@ a {
 }
 
 .linea {
-    width: 45rem;
+    width: 30rem;
     padding: 0rem 12rem;
 }
 
 .docente-3 .linea {
     padding: 10rem 0rem 0rem 6rem;
-    width: 45rem;
 }
 
 /* Botones ver más y ver menos */
@@ -360,15 +359,19 @@ a {
     display: flex;
     align-items: center;
 }
+
 .form-sin-imagen {
     width: 70%;
 }
+
 .img-form {
     width: 45%;
 }
+
 .img-form img {
     width: 100%;
 }
+
 #formulario h2 {
     text-align: left;
     background: none;
@@ -388,9 +391,10 @@ a {
     background: var(--color-acento);
     color: white;
 }
+
 .form .cta:hover {
     background: white;
-    color:var(--color-acento);
+    color: var(--color-acento);
 }
 
 input {
@@ -420,7 +424,7 @@ input[type=email] {
 input[type=radio] {
     border-radius: 50%;
     padding: 1rem;
-    border: solid var(--color-acento);
+    border: 0.3rem solid var(--color-acento);
 }
 
 input[type=checkbox] {
@@ -487,8 +491,8 @@ footer {
 .contenedor-popup {
     margin: auto;
     width: 80rem;
-    height: 40rem;
-    padding: 6rem;
+    height: 44rem;
+    padding: 4rem 6rem 6rem 6rem;
     background-color: white;
     border: 0.5rem solid var(--color-acento);
     display: grid;
@@ -506,7 +510,7 @@ footer {
 #cerrar {
     grid-area: cerrar;
     margin-left: auto;
-    height: 0rem;
+    height: 2rem;
 }
 
 #cerrar img {
@@ -548,9 +552,42 @@ footer {
     html {
         font-size: 5px;
     }
-    header .redes, .img-form  {
+
+    header .redes,
+    .img-form,
+    .docente-1 .linea {
         display: none;
     }
+
+    .docente-2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .docente-2 img {
+        width: 80%;
+    }
+
+    #docente-visible,
+    .docente-desplegado,
+    .recuadros,
+    .form-centrado {
+        display: block;
+    }
+
+    #docente-visible {
+        margin: 6rem 0rem;
+    }
+
+    .docente-desplegado {
+        margin-bottom: 6rem;
+    }
+
+    .linea {
+        width: 25rem;
+        margin: 0rem 6rem 4rem 6rem;
+    }
+
     .cursada {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
@@ -558,4 +595,18 @@ footer {
             "img-c"
             "c2";
     }
+
+    .form-sin-imagen {
+        width: 100%;
+    }
+
+    input {
+        margin: 2rem 3rem;
+    }
+    
+    .input2 {
+        margin-top: 0rem;
+        display:flex;
+    }
+
 }
