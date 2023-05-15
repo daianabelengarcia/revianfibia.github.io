@@ -587,7 +587,9 @@ footer {
         margin: auto;
     }
 
-    .cta-portada, .docente-2, .input2 {
+    .cta-portada,
+    .docente-2,
+    .input2 {
         display: flex;
         justify-content: center;
     }
@@ -595,6 +597,11 @@ footer {
     .cta {
         font-size: 3.6rem;
         padding: 3rem 14rem;
+    }
+
+    #cta {
+        padding: 0rem 14rem;
+        height: 7rem;
     }
 
     header .redes,
@@ -614,6 +621,24 @@ footer {
     .form-centrado,
     footer {
         display: block;
+    }
+
+    #section-1 {
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "descr-1"
+        "img-d"
+        "descr-2";
+    }
+    .descr-1 {
+        grid-area: "descr-1";
+    }
+    .img-descripcion {
+        grid-area: "img-d";
+    }
+    .descr-2 {
+        grid-area: "descr-2";
     }
 
     #docente-visible {
@@ -641,7 +666,7 @@ footer {
         padding-bottom: 4rem;
     }
 
-    .form-sin-imagen {
+    .form-sin-imagen, .descripcion, #section-1 img {
         width: 100%;
     }
 
