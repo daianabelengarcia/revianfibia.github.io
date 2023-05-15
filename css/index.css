@@ -729,6 +729,7 @@ footer {
     input[type=checkbox],
     input[type=radio] {
         margin: 2rem;
+        padding:1.5rem;
     }
 
     .but-margin {
