@@ -572,7 +572,7 @@ footer {
     #docente-visible,
     .docente-desplegado,
     .recuadros,
-    .form-centrado {
+    .form-centrado, footer {
         display: block;
     }
 
