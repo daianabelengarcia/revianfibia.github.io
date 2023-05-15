@@ -187,17 +187,22 @@ a {
 
 /* Sección 1 */
 #section-1 {
-    display: flex;
-    align-items: center;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "img-d descr-1"
+    "img-d descr-2";
+}
+.descr-1 {
+    grid-area: "descr-1";
+}
+.img-descripcion {
+    grid-area: "img-d";
+}
+.descr-2 {
+    grid-area: "descr-2";
 }
 
-#section-1 img {
-    width: 50%;
-}
-
-.descripcion {
-    width: 50%;
-}
 
 /* Sección 2 */
 
@@ -624,21 +629,11 @@ footer {
     }
 
     #section-1 {
-        display:grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
         grid-template-areas: "descr-1"
         "img-d"
         "descr-2";
-    }
-    .descr-1 {
-        grid-area: "descr-1";
-    }
-    .img-descripcion {
-        grid-area: "img-d";
-    }
-    .descr-2 {
-        grid-area: "descr-2";
     }
 
     #docente-visible {
