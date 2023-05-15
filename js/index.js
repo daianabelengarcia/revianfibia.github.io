@@ -66,6 +66,13 @@ $(document).ready(() => {
     distance: "6rem",
   });
 }
+if (pantalla <= 500) {
+  $("#s5-1").addClass("oculto");
+  $("#s5-2").removeClass("oculto");
+} else {
+  $("#s5-2").addClass("oculto");
+  $("#s5-1").removeClass("oculto");
+}
 
   // Smooth scrolling con JQ
   $("a").on("click", function (event) {
