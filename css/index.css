@@ -187,19 +187,22 @@ a {
 
 /* Sección 1 */
 #section-1 {
-    display:grid;
+    display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "img-d descr-1"
-    "img-d descr-2";
+        "img-d descr-2";
 }
+
 .descr-1 {
     grid-area: descr-1;
 }
+
 .img-descripcion {
     grid-area: img-d;
-    width:100%;
+    width: 100%;
 }
+
 .descr-2 {
     grid-area: descr-2;
 }
@@ -239,6 +242,7 @@ a {
     background: var(--color-recuadros);
     text-align: center;
 }
+
 .recuadros img {
     display: none;
 }
@@ -619,10 +623,15 @@ footer {
         display: none;
     }
 
+    .recuadros p {
+        aspect-ratio: 9/14;
+    }
+
     .recuadros img {
         display: block;
         height: 6rem;
-        margin: 0rem auto 10rem auto;
+        margin: 0rem auto;
+        padding: 6rem 0rem;
     }
 
     .docente-2 img {
@@ -642,8 +651,8 @@ footer {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
         grid-template-areas: "descr-1"
-        "img-d"
-        "descr-2";
+            "img-d"
+            "descr-2";
     }
 
     #docente-visible {
@@ -671,7 +680,9 @@ footer {
         padding-bottom: 4rem;
     }
 
-    .form-sin-imagen, .descripcion, #section-1 img {
+    .form-sin-imagen,
+    .descripcion,
+    #section-1 img {
         width: 100%;
     }
 
