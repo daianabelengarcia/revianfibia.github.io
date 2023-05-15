@@ -198,6 +198,7 @@ a {
 }
 .img-descripcion {
     grid-area: img-d;
+    width:100%;
 }
 .descr-2 {
     grid-area: descr-2;
