@@ -655,6 +655,10 @@ footer {
             "descr-2";
     }
 
+    #section-3 {
+        padding: 0.1rem 0rem 8rem 0rem;
+    }
+
     #docente-visible {
         margin: 6rem 0rem;
     }
@@ -664,8 +668,8 @@ footer {
     }
 
     .linea {
-        width: 25rem;
-        margin: 0rem 6rem 4rem 6rem;
+        width: 40rem;
+        margin: 0rem 0rem 4rem 4rem;
     }
 
     .cursada {
