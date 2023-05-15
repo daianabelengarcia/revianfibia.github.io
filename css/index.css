@@ -382,6 +382,7 @@ a {
     padding: 2rem 6rem;
     display: flex;
     align-items: center;
+    margin: 12rem 0rem;
 }
 
 .form-sin-imagen {
@@ -728,7 +729,6 @@ footer {
 
     #formulario {
         padding: 10rem 6rem;
-        margin: 12rem 0rem;
     }
 
     #formulario h2 {
