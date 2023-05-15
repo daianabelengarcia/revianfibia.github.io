@@ -586,14 +586,14 @@ footer {
     .p2-popup {
         text-align: center;
     }
-
-    p {
+    
+    p,
+    .form,
+    input {
         font-size: 3.6rem;
     }
 
-    #portada p,
-    .form,
-    input {
+    #portada p {
         font-size: 3.2rem;
     }
 
