@@ -17,42 +17,44 @@ $(document).ready(() => {
   window.sr = ScrollReveal(); //Movimiento de secciones
 
 //Sección 1
-  sr.reveal("#section-1", {
+  sr.reveal(".descripcion", {
     duration: 3000,
-    origin: "top",
+    origin: "left",
     distance: "6rem",
+  });
+  sr.reveal("",{
+    duration:3000,
+    origin:"right",
+    distance:"6rem",
   });
 
   //Sección 2
-  sr.reveal("#section-2", {
+  sr.reveal(".recuadros", {
     duration: 3000,
     origin: "top",
     distance: "6rem",
   });
 
-  //Sección 3
-  sr.reveal("#section-3", {
-    duration: 3000,
-    origin: "top",
-    distance: "6rem",
-  });
   
   //Sección 4
-  sr.reveal("#section-4", {
+  sr.reveal(".cursada-texto-1", {
     duration: 3000,
-    origin: "top",
+    origin: "right",
+    distance: "6rem",
+  });
+  sr.reveal(".cursada-texto-2", {
+    duration: 3000,
+    origin: "right",
+    distance: "6rem",
+  });
+  sr.reveal(".cursada-img", {
+    duration: 3000,
+    origin: "left",
     distance: "6rem",
   });
 
   //Sección 5
   sr.reveal("#section-5", {
-    duration: 3000,
-    origin: "top",
-    distance: "6rem",
-  });
-
-   //Form
-   sr.reveal("#formulario", {
     duration: 3000,
     origin: "top",
     distance: "6rem",

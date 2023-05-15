@@ -186,10 +186,17 @@ a {
 }
 
 /* Sección 1 */
+#section-1 {
+    display: flex;
+    align-items: center;
+}
+
+#section-1 img {
+    width: 50%;
+}
 
 .descripcion {
     width: 50%;
-    margin-left: auto;
 }
 
 /* Sección 2 */
@@ -350,8 +357,15 @@ a {
     background-color: black;
     border: 0.5rem solid var(--color-acento);
     padding: 2rem 6rem;
+    display: flex;
+    align-items: center;
 }
-
+.form-sin-imagen {
+    width: 60%;
+}
+.img-form {
+    width: 40%;
+}
 #formulario h2 {
     text-align: left;
     background: none;
@@ -521,4 +535,18 @@ footer {
     margin: auto;
 }
 
-@media screen and (max-width: 500px) {}
+@media screen and (max-width: 500px) {
+    html {
+        font-size: 5px;
+    }
+    header .redes, .img-form  {
+        display: none;
+    }
+    .cursada {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "c1"
+            "img-c"
+            "c2";
+    }
+}
