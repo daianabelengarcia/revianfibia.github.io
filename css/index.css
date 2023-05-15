@@ -705,6 +705,10 @@ footer {
         padding-bottom: 4rem;
     }
 
+    #formulario h2 {
+        padding: 0rem;
+    }
+
     .form-sin-imagen,
     .descripcion,
     #section-1 img {
