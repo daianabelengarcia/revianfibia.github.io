@@ -366,6 +366,9 @@ a {
 .img-form {
     width: 40%;
 }
+.img-form img {
+    width: 50%;
+}
 #formulario h2 {
     text-align: left;
     background: none;

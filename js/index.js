@@ -22,7 +22,7 @@ $(document).ready(() => {
     origin: "left",
     distance: "6rem",
   });
-  sr.reveal(".img-form",{
+  sr.reveal(".img-descripcion",{
     duration: 3000,
     origin:"right",
     distance:"6rem",
