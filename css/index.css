@@ -555,19 +555,52 @@ footer {
         font-size: 5px;
     }
 
+    h1,
+    .p-portada {
+        text-align: center;
+    }
+
+    p {
+        font-size: 3.2rem;
+    }
+
+    header {
+        justify-content: center;
+        padding: 2rem;
+    }
+
+    .logo {
+        width: 25rem;
+    }
+
+    #portada {
+        padding: 6rem 2rem 28rem 2rem;
+    }
+
+    .img-portada {
+        width: 80%;
+        margin: auto;
+    }
+
+    .p-portada {
+        padding: 4rem;
+        margin: auto;
+    }
+
+    .cta-portada, .docente-2, .input2 {
+        display: flex;
+        justify-content: center;
+    }
+
     .cta {
-        padding: 0rem 12rem;
+        font-size: 3.6rem;
+        padding: 3rem 14rem;
     }
 
     header .redes,
     .img-form,
     .docente-1 .linea {
         display: none;
-    }
-
-    .docente-2 {
-        display: flex;
-        justify-content: center;
     }
 
     .docente-2 img {
@@ -619,8 +652,6 @@ footer {
 
     .input2 {
         margin: 0rem 0rem 3rem 0rem;
-        display: flex;
-        justify-content: center;
     }
 
     input[type=checkbox],
