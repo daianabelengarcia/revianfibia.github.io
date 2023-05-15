@@ -702,11 +702,11 @@ footer {
     }
 
     #formulario {
-        padding-bottom: 4rem;
+        padding: 10rem 6rem;
     }
 
     #formulario h2 {
-        padding: 0rem;
+        padding: 0rem 0rem 2rem 0rem;
     }
 
     .form-sin-imagen,
@@ -729,5 +729,8 @@ footer {
     input[type=checkbox],
     input[type=radio] {
         margin: 2rem;
+    }
+    .but-margin {
+margin-right: 2rem;
     }
 }
