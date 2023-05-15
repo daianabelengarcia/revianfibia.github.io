@@ -1,10 +1,10 @@
-$(document).ready(() => { 
+$(document).ready(() => {
   $("#vermas").click(() => {
     mostrarTodo();
-  })
+  });
   $("#vermenos").click(() => {
     ocultarTodo();
-  })
+  });
   $("#cerrar").click(() => {
     cerrarPopup();
   });
@@ -16,16 +16,22 @@ $(document).ready(() => {
 
   window.sr = ScrollReveal(); //Movimiento de secciones
 
-//Sección 1
-  sr.reveal(".descripcion", {
+  if (width >= 500px) {
+  //Sección 1
+  sr.reveal(".descr-1", {
     duration: 3000,
     origin: "left",
     distance: "6rem",
   });
-  sr.reveal(".img-descripcion",{
+  sr.reveal(".descr-2", {
     duration: 3000,
-    origin:"right",
-    distance:"6rem",
+    origin: "left",
+    distance: "6rem",
+  });
+  sr.reveal(".img-descripcion", {
+    duration: 3000,
+    origin: "right",
+    distance: "6rem",
   });
 
   //Sección 2
@@ -35,7 +41,6 @@ $(document).ready(() => {
     distance: "6rem",
   });
 
-  
   //Sección 4
   sr.reveal(".cursada-texto-1", {
     duration: 3000,
@@ -59,6 +64,7 @@ $(document).ready(() => {
     origin: "top",
     distance: "6rem",
   });
+}
 
   // Smooth scrolling con JQ
   $("a").on("click", function (event) {
@@ -77,7 +83,7 @@ $(document).ready(() => {
     }
   });
 
-  //Función ver más 
+  //Función ver más
   function mostrarTodo() {
     $("#docente-desplegable").removeClass("oculto");
     $("#docente-desplegable").addClass("docente-desplegado");
@@ -100,7 +106,7 @@ $(document).ready(() => {
     $("#cta-desplegado").addClass("oculto");
   }
   //Función mostrar feedback - form enviado
-  function abrirPopup() { 
+  function abrirPopup() {
     $("#popup").removeClass("oculto");
     $("#popup").addClass("popup-visible");
   }
@@ -113,13 +119,13 @@ $(document).ready(() => {
   function datosFeedback() {
     const inputNombre = $("#nombre");
     const inputCorreo = $("#correo");
-  
+
     const nombre = inputNombre.val();
     const correo = inputCorreo.val();
-  
+
     const spanNombre = $("#dato-nombre");
     const spanCorreo = $("#dato-email");
-  
+
     spanNombre.html(nombre);
     spanCorreo.html(correo);
   }
