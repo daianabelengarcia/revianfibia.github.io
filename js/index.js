@@ -16,7 +16,7 @@ $(document).ready(() => {
 
   window.sr = ScrollReveal(); //Movimiento de secciones
 
-  if (width >= 500px) {
+  if(width >= 500){
   //Sección 1
   sr.reveal(".descr-1", {
     duration: 3000,
